@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="직업군 선택"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button android:id="@+id/btn_warrior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전사"
+        android:layout_marginBottom="8dp" />
+
+    <Button android:id="@+id/btn_mage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="마법사"
+        android:layout_marginBottom="8dp" />
+
+    <Button android:id="@+id/btn_archer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="궁수"
+        android:layout_marginBottom="8dp" />
+
+    <Button android:id="@+id/btn_healer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="힐러"
+        android:layout_marginBottom="8dp" />
+
+    <Button android:id="@+id/btn_bard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음유시인" />
+</LinearLayout>

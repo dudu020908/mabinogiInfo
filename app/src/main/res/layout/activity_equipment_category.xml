@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="장비 종류 선택"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button android:id="@+id/btn_weapon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="무기"
+        android:layout_marginBottom="8dp"/>
+
+    <Button android:id="@+id/btn_armor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="방어구"
+        android:layout_marginBottom="8dp"/>
+
+    <Button android:id="@+id/btn_accessory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="장신구"
+        android:layout_marginBottom="8dp"/>
+
+    <Button android:id="@+id/btn_emblem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="엠블럼"/>
+</LinearLayout>
