@@ -228,5 +228,5 @@ object SampleData {
     GameRune(6, "장신구", "돌격", "전사의 찌르기 스킬을 꿰뚫기로 교체한다.\n" +
             "온 힘을 검 끝에 모아, 타겟에게 위력적인 돌진 공격을 가한다.", R.drawable.ic_launcher_background),
     )
-
+//커밋
 }
