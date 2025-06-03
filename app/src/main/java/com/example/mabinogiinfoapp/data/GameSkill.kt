@@ -7,12 +7,13 @@ data class GameSkill(
     val jobGroup: String,
     val jobClass: String,
     val title: String,
+    val subtitle : String,
     val description: String,
     val iconResId: Int
 ) : Serializable {
 
 
     fun toGameInfo(): GameInfo = GameInfo(
-        id, title, description, iconResId
+        id, title,subtitle ,description, iconResId
     )
 }

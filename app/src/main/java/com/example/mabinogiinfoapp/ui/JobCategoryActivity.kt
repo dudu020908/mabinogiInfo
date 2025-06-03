@@ -14,7 +14,9 @@ class JobCategoryActivity : AppCompatActivity() {
         binding = ActivityJobCategoryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnWarrior.setOnClickListener { openSkillList("전사") }
+        binding.btnWarrior.setOnClickListener { val intent = Intent(this, SubJobActivity::class.java)
+            intent.putExtra("jobGroup", "전사")
+            startActivity(intent) }
         binding.btnMage.setOnClickListener {
             val intent = Intent(this, SubJobActivity::class.java)
             intent.putExtra("jobGroup", "마법사")

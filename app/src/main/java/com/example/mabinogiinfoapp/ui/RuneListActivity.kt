@@ -23,11 +23,17 @@ class RuneListActivity : AppCompatActivity() {
 
         val runes = SampleData.runeList.filter { it.category == category }
 
-        val adapter = GameInfoAdapter(runes.map { it.toGameInfo() }) { selected ->
-            val intent = Intent(this, DetailActivity::class.java)
-            intent.putExtra("info", selected)
-            startActivity(intent)
-        }
+        val adapter = GameInfoAdapter(
+            runes.map { it.toGameInfo() },
+            onItemClick = { selected ->
+                val intent = Intent(this, DetailActivity::class.java)
+                intent.putExtra("area", "info")
+                intent.putExtra("item", selected)
+                startActivity(intent)
+            },
+            showDescription = false // ← 설명 안 보이게 설정
+        )
+
 
         binding.recyclerRuneList.layoutManager = LinearLayoutManager(this)
         binding.recyclerRuneList.adapter = adapter

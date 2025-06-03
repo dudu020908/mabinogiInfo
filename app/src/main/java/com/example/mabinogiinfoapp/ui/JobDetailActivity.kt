@@ -3,6 +3,7 @@ package com.example.mabinogiinfoapp.ui
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mabinogiinfoapp.data.GameRune
 import com.example.mabinogiinfoapp.data.GameSkill
 import com.example.mabinogiinfoapp.data.SampleData
 import com.example.mabinogiinfoapp.databinding.ActivityJobDetailBinding
@@ -39,33 +40,27 @@ class JobDetailActivity : AppCompatActivity() {
         }
 
         // 스킬 출력
-        val skillLabels = filteredSkills.map { "${it.title} ★★" } // 등급 가정
-        populateChips(binding.chipSkillGroup, skillLabels)
-
         // 룬 출력
-        populateChips(binding.chipWeaponGroup, weaponRunes.map { it.title })
-        populateChips(binding.chipArmorGroup, armorRunes.map { it.title })
-        populateChips(binding.chipEmblemGroup, emblemRunes.map { it.title })
-
+        populateRuneChips(binding.chipWeaponGroup, weaponRunes)
+        populateRuneChips(binding.chipArmorGroup, armorRunes)
+        populateRuneChips(binding.chipEmblemGroup, emblemRunes)
         // 콤보 아이콘 – 스킬 순서 아이디로 나열
-        val comboIconIds = filteredSkills.map { it.iconResId }
-        comboIconIds.forEach {
-            val icon = ImageView(this).apply {
-                setImageResource(it)
-                layoutParams = android.view.ViewGroup.LayoutParams(100, 100)
-                setPadding(8, 8, 8, 8)
-            }
-            binding.linearCombo.addView(icon)
-        }
-    }
 
-    private fun populateChips(chipGroup: ChipGroup, items: List<String>) {
+    }
+    private fun populateRuneChips(chipGroup: ChipGroup, runes: List<GameRune>) {
         chipGroup.removeAllViews()
-        for (text in items) {
+        for (rune in runes) {
             val chip = Chip(this).apply {
-                this.text = text
-                isClickable = false
+                text = rune.title
+                isClickable = true
                 isCheckable = false
+                setOnClickListener {
+                    MaterialAlertDialogBuilder(this@JobDetailActivity)
+                        .setTitle(rune.title)
+                        .setMessage(rune.description)
+                        .setPositiveButton("확인", null)
+                        .show()
+                }
             }
             chipGroup.addView(chip)
         }
@@ -74,7 +69,9 @@ class JobDetailActivity : AppCompatActivity() {
         chipGroup.removeAllViews()
         for (skill in skills) {
             val chip = Chip(this).apply {
-                text = "${skill.title}"
+                text = skill.title
+                chipIcon = getDrawable(skill.iconResId)
+                isChipIconVisible = true
                 isClickable = true
                 isCheckable = false
                 setOnClickListener {
@@ -87,7 +84,8 @@ class JobDetailActivity : AppCompatActivity() {
     private fun showSkillDialog(skill: GameSkill) {
         MaterialAlertDialogBuilder(this)
             .setTitle(skill.title)
-            .setMessage(skill.description) // description 필드가 있어야 함
+            .setIcon(getDrawable(skill.iconResId))
+            .setMessage("${skill.subtitle}\n${skill.description}") // description 필드가 있어야 함
             .setPositiveButton("확인", null)
             .show()
     }

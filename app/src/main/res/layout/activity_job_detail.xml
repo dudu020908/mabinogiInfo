@@ -16,13 +16,13 @@
             android:id="@+id/txtJobTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="빙결술사"
+            android:text=""
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp"/>
 
         <!-- 스킬 구성 -->
-        <TextView android:text="스킬 개조" style=
+        <TextView android:text="스킬 목록" style=
             "@style/TextAppearance.MaterialComponents.Body1"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content" />
@@ -30,7 +30,7 @@
             android:id="@+id/chipSkillGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:singleLine="true"
+            app:singleLine="false"
             app:chipSpacing="8dp"/>
 
         <!-- 룬 추천 섹션 -->
@@ -69,21 +69,5 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
-
-        <!-- 콤보 섹션 -->
-        <TextView android:text="콤보 및 사이클" android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"/>
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <LinearLayout
-                android:id="@+id/linearCombo"
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="8dp"/>
-        </HorizontalScrollView>
     </LinearLayout>
 </ScrollView>

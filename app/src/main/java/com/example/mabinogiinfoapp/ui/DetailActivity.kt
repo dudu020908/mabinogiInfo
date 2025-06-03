@@ -17,6 +17,7 @@ class DetailActivity : AppCompatActivity() {
         val info = intent.getSerializableExtra("info") as? GameInfo ?: return
 
         binding.txtTitle.text = info.title
+        binding.txtsubTitle.text = info.subtitle
         binding.txtDescription.text = info.description
         binding.imgIcon.setImageResource(info.iconResId)
     }
