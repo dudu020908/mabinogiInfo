@@ -22,9 +22,20 @@ class JobCategoryActivity : AppCompatActivity() {
             intent.putExtra("jobGroup", "마법사")
             startActivity(intent)
         }
-        binding.btnArcher.setOnClickListener { openSkillList("궁수") }
-        binding.btnHealer.setOnClickListener { openSkillList("힐러") }
-        binding.btnBard.setOnClickListener { openSkillList("음유시인") }
+        binding.btnArcher.setOnClickListener {
+            val intent = Intent(this, SubJobActivity::class.java)
+            intent.putExtra("jobGroup", "궁수")
+            startActivity(intent)
+        }
+        binding.btnHealer.setOnClickListener {             val intent = Intent(this, SubJobActivity::class.java)
+            intent.putExtra("jobGroup", "힐러")
+            startActivity(intent) }
+        binding.btnBard.setOnClickListener {            val intent = Intent(this, SubJobActivity::class.java)
+            intent.putExtra("jobGroup", "음유시인")
+            startActivity(intent) }
+        binding.btnThief.setOnClickListener {             val intent = Intent(this, SubJobActivity::class.java)
+            intent.putExtra("jobGroup", "도적")
+            startActivity(intent) }
     }
 
     private fun openSkillList(jobGroup: String) {

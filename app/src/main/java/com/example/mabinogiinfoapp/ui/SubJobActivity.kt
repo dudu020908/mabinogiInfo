@@ -23,6 +23,7 @@ class SubJobActivity : AppCompatActivity() {
             "궁수" -> listOf("궁수", "석궁사수", "장궁병")
             "힐러" -> listOf("사제", "수도사", "힐러")
             "음유시인" -> listOf("댄서", "악사", "음유시인")
+            "도적" -> listOf("격투가", "도적", "듀얼블레이드")
             else -> emptyList()
         }
 

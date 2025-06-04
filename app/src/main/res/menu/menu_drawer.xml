@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_alarm_status"
+        android:title="알람 상태: 확인 중"
+        android:enabled="false" />
+    <item
+        android:id="@+id/nav_alarm_on"
+        android:title="알람 켜기" />
+    <item
+        android:id="@+id/nav_alarm_off"
+        android:title="알람 끄기" />
+    <item
+        android:id="@+id/nav_test_alarm"
+        android:title="🔔 테스트 알람 (10초 후)" />
+</menu>

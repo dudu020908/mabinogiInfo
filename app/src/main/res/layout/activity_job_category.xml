@@ -43,4 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="음유시인" />
+    <Button android:id="@+id/btn_thief"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="도적" />
 </LinearLayout>
