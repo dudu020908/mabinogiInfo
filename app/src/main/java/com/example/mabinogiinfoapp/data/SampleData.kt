@@ -469,7 +469,7 @@ object SampleData {
                     "비검 사용 가능 효과 부여 확률 : 25%\n" +
                     "집중 상태 시 부여 확률 : 50%\n" +
                     "사거리 : 1.65m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_1
         ),
         GameSkill(
             id = 30,
@@ -484,7 +484,7 @@ object SampleData {
                     "재사용 대기 시간 : 12초\n" +
                     "브레이크 대미지 : 1칸\n" +
                     "사거리 : 1.65m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_2
         ),
         GameSkill(
             id = 31,
@@ -499,7 +499,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "집중 상태 시 재사용 대기 시간 : 5초\n" +
                     "사거리 : 1.65m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_3
         ),
         GameSkill(
             id = 32,
@@ -509,7 +509,7 @@ object SampleData {
             subtitle = "#액티브 #스킬강화\n" +
                     "기술 위력과 범위를 강화해 재사용하는 비검술.\n" ,
            description = " 강철 쐐기, 칼집 치기, 질풍 베기 중 마지막에 사용한 기술을 범위 공격으로 강화하며 다양한 추가 효과를 얻는다.",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_4
         ),
         GameSkill(
             id = 33,
@@ -525,7 +525,7 @@ object SampleData {
                     "집중력 회복량 : 30\n" +
                     "사거리 : 4m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_1
         ),
         GameSkill(
             id = 34,
@@ -541,7 +541,7 @@ object SampleData {
                     "브레이크 대미지 : 1칸\n" +
                     "사거리 : 4m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_2
         ),
         GameSkill(
             id = 35,
@@ -555,7 +555,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "사거리 : 4m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_3
         ),
         GameSkill(
             id = 36,
@@ -578,7 +578,7 @@ object SampleData {
                     "재사용 대기 시간 : 25초\n" +
                     "사거리 : 20m\n" +
                     "범위 : 6m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_5
         ),
         GameSkill(
             id = 37,
@@ -594,7 +594,7 @@ object SampleData {
                     "궁극기 비용 : 300\n" +
                     "사거리 : 10m\n" +
                     "범위 : 15m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3_6
         ),
         GameSkill(
             id = 38,
@@ -610,7 +610,7 @@ object SampleData {
                     "집중 상태시 집중력 소모 1초마다 :  5\n" +
                     "집중 상태시 치명타 확률 증가  : 40%\n" +
                     "집중 상태시 치명타 대미지 증가 : 50%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3p
         ),
         GameSkill(
             id = 39,
@@ -625,7 +625,7 @@ object SampleData {
                     "이동속도 증가 : 10%\n" +
                     "추가 공격 대미지 : n\n" +
                     "브레이크 대미지 : 1칸",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3p
         ),
         GameSkill(
             id = 40,
@@ -637,7 +637,7 @@ object SampleData {
                     "기본 공격에 받는 피해가 감소하고, 적에게 주는 치명타 피해가 증가한다.",
             description = "받는 기본 공격 대미지 감소 : 10%\n" +
                     "치명타 대미지 증가 : 5%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3p
         ),
         GameSkill(
             id = 41,
@@ -650,7 +650,7 @@ object SampleData {
             description = "중첩 당 비검 대미지 증가 : 5%\n" +
                     "최대 중첩 수 : 5\n" +
                     "지속 시간 : 12초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3p
         ),
         GameSkill(
             id = 42,
@@ -665,7 +665,7 @@ object SampleData {
                     "최대 중첩 수 : 10\n" +
                     "지속 시간 : 10초\n" +
                     "집중 시 급소 회피 증가 : 30%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.w3p
         ),
         GameSkill(
             id = 43,
@@ -682,7 +682,7 @@ object SampleData {
                     "재사용 대기 시간 : 7초\n" +
                     "적중 시 재사용 대기 시간 감소 : 0.5초\n" +
                     "사거리 : 12m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar1
         ),
         GameSkill(
             id = 44,
@@ -699,7 +699,7 @@ object SampleData {
                     "재사용 대기 시간 : 12초\n" +
                     "사거리 : 12m\n" +
                     "범위 : 15m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2
         ),
         GameSkill(
             id = 45,
@@ -716,7 +716,7 @@ object SampleData {
                     "재사용 대기 시간 : 9초\n" +
                     "최대 스택 수 : 3\n" +
                     "사거리 : 12m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3
         ),
         GameSkill(
             id = 46,
@@ -736,7 +736,7 @@ object SampleData {
                     "바람 획득 : 25%\n" +
                     "재사용 대기 시간 : 11초\n" +
                     "사거리 : 12m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar4
         ),
         GameSkill(
             id = 47,
@@ -754,7 +754,7 @@ object SampleData {
                     "이동 속도 감소 : 50%\n" +
                     "재사용 대기 시간 : 9초\n" +
                     "사거리 : 12m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar5
         ),
         GameSkill(
             id = 48,
@@ -771,7 +771,7 @@ object SampleData {
                     "불화살 추가 대미지 : n\n" +
                     "궁극기 비용 : 300\n" +
                     "사거리 : 12m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar6
         ),
         GameSkill(
             id = 49,
@@ -790,7 +790,7 @@ object SampleData {
                     "사이드 스텝 도탄 횟수 : 1발당 1회\n" +
                     "호그 샷 도탄 횟수 : 1발당 1회\n" +
                     "이스케이프 스텝 도탄 횟수 : 1발당 1회",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.arp1
         ),
         GameSkill(
             id = 50,
@@ -807,16 +807,7 @@ object SampleData {
                     "스킬 사용에 따른 피해 증가 : 10%\n" +
                     "최대 피해 증가 : 100%\n" +
                     "재사용 대기 시간 : 12초",
-            iconResId = R.drawable.w2p
-        ),
-        GameSkill(
-            id = 51,
-            jobGroup = "궁수",
-            jobClass = "궁수",
-            title = "",
-            subtitle = "",
-            description = "",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.arp2
         ),
         GameSkill(
             id = 52,
@@ -826,7 +817,7 @@ object SampleData {
             subtitle = "원거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
                     "적에게 주는 연타 피해가 증가한다.",
             description = "연타 대미지 증가 5%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.arp3
         ),
         GameSkill(
             id = 53,
@@ -838,7 +829,7 @@ object SampleData {
             description = "이동 속도 증가량 25%\n" +
                     "바람 소모 감소 시간 : 5초\n" +
                     "바람 소모 감소량 : 50%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.arp4
         ),
         GameSkill(
             id = 54,
@@ -848,7 +839,7 @@ object SampleData {
             subtitle = "빠르고 탄력적인 몸놀림을 적극 활용하는 사격 방식.\n" +
                     "이동 속도 증가 수치에 비례하여 적에게 주는 기본 공격 및 스킬 피해가 증가한다.",
             description = "이동속도 증가 1% 당 대미지 증가 0.5%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.arp5
         ),
         GameSkill(
             id = 55,
@@ -864,7 +855,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "범위 : 6m\n" +
                     "강화 볼트 장전 : 1개 탄창",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2_1
         ),
         GameSkill(
             id = 56,
@@ -882,7 +873,7 @@ object SampleData {
                     "사거리 : 10m\n" +
                     "범위 : 3m\n" +
                     "강화 볼트 장전 : 1개 탄창",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2_2
         ),
         GameSkill(
             id = 57,
@@ -900,7 +891,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "사거리 : 10m\n" +
                     "강화 볼트 장전 : 1개 탄창",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2_3
         ),
         GameSkill(
             id = 58,
@@ -917,7 +908,7 @@ object SampleData {
                     "강화 볼트의 치명타 확률 감쇠량 : 발사할 때마다 0.75배\n" +
                     "사거리 : 12m\n" +
                     "강화 볼트 소모 : 1개 탄창",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2_4
         ),
         GameSkill(
             id = 59,
@@ -933,7 +924,7 @@ object SampleData {
                     "사거리 : 8m\n" +
                     "범위 : 10m\n" +
                     "강화 볼트 소모 : 1개 탄창",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2_5
         ),
         GameSkill(
             id = 60,
@@ -951,7 +942,7 @@ object SampleData {
                     "사거리 : 14m\n" +
                     "범위 : 6m\n" +
                     "강화 볼트 장전 : 3개 탄창",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2_6
         ),
         GameSkill(
             id = 61,
@@ -966,7 +957,7 @@ object SampleData {
                     "추가 공격 스킬 버스터 샷, 쇼크 익스플로전, 슬라이딩 스텝\n" +
                     "강화 볼트 탄창 생성 버스터 샷, 쇼크 익스플로전, 슬라이딩 스텝\n" +
                     "강화 볼트 탄창 소모 거스팅 볼트, 스프레딩 볼트",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2p
         ),
         GameSkill(
             id = 62,
@@ -979,7 +970,7 @@ object SampleData {
             description = "대미지 증가 : 30%\n" +
                     "제한 시간 : 4초\n" +
                     "최대 스택 수 : 2",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2p
         ),
         GameSkill(
             id = 63,
@@ -990,7 +981,7 @@ object SampleData {
                     "원거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
                     "적에게 주는 치명타 피해가 증가한다.",
             description = "치명타 대미지 증가 : 5%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2p
         ),
         GameSkill(
             id = 64,
@@ -1002,7 +993,7 @@ object SampleData {
                     "강화 볼트 장전 시, 일정 시간 공격 속도가 증가한다.",
             description = "공격 속도 증가 : 50%\n" +
                     "지속 시간 : 5초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2p
         ),
         GameSkill(
             id = 65,
@@ -1013,7 +1004,7 @@ object SampleData {
                     "여유 공격분을 준비해 놓는 장전용 탄창.\n" +
                     "강화 볼트 장전 스킬의 최대 스택 수가 증가한다.",
             description = "최대 스택 수 : 2",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar2p
         ),
         GameSkill(
             id = 66,
@@ -1030,7 +1021,7 @@ object SampleData {
                     "지속 시간 : 10초\n" +
                     "재사용 대기 시간 : 10초\n" +
                     "사거리 : 12m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3_1
         ),
         GameSkill(
             id = 67,
@@ -1049,7 +1040,7 @@ object SampleData {
                     "쇠약 지속 시간 : 4초\n" +
                     "사거리 : 18m\n" +
                     "범위 : 20m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 68,
@@ -1067,7 +1058,7 @@ object SampleData {
                     "재사용 대기 시간 : 11초\n" +
                     "사거리 : 12m\n" +
                     "범위 : 3.5m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3_2
         ),
         GameSkill(
             id = 69,
@@ -1082,7 +1073,7 @@ object SampleData {
                     "용화살 발사 : 1발\n" +
                     "사거리 : 18m\n" +
                     "범위 : 2m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 70,
@@ -1100,7 +1091,7 @@ object SampleData {
                     "단계별 차징 시간 : 0.75초\n" +
                     "재사용 대기 시간 : 7초\n" +
                     "사거리 : 12m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3_3
         ),
         GameSkill(
             id = 71,
@@ -1116,7 +1107,7 @@ object SampleData {
                     "추가타 최대 대미지 : n\n" +
                     "사거리 : 18m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 72,
@@ -1137,7 +1128,7 @@ object SampleData {
                     "재사용 대기 시간 : 13초\n" +
                     "사거리 : 12m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3_4
         ),
         GameSkill(
             id = 73,
@@ -1155,7 +1146,7 @@ object SampleData {
                     "재사용 대기 시간 : 14초\n" +
                     "사거리 : 12m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3_5
         ),
         GameSkill(
             id = 74,
@@ -1171,7 +1162,7 @@ object SampleData {
                     "궁극기 지속 시간 : 15초\n" +
                     "궁극기 비용 : 300\n" +
                     "사거리 : 16m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3_6
         ),
         GameSkill(
             id = 75,
@@ -1185,7 +1176,7 @@ object SampleData {
                     "캐스팅 속도 증가 : 30%\n" +
                     "치명타 확률 증가 : 10%\n" +
                     "효과 발동 조건 : 3초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 76,
@@ -1196,7 +1187,7 @@ object SampleData {
                     "숙련된 궁술 경험을 토대로 효율을 추구하는 사냥 기법.\n" +
                     "스킬 공격 적중 시, 하트 시커의 남은 재사용 대기 시간이 감소한다.",
             description = "재사용 대기 시간 감소 : 1초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 77,
@@ -1207,7 +1198,7 @@ object SampleData {
                     "원거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
                     "적에게 주는 강타 피해가 증가한다.",
             description = "강타 대미지 증가 5%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 78,
@@ -1219,7 +1210,7 @@ object SampleData {
                     "기본 공격 적중 시, 지속피해: 출혈을 추가로 준다.",
             description = "출혈 지속 대미지 : n\n" +
                     "재사용 대기 시간 : 5초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 79,
@@ -1230,7 +1221,7 @@ object SampleData {
                     "성공적인 사격에 고무되어 높아진 전투 의지.\n" +
                     "강타 발동 시, 궁극기 게이지를 추가로 얻는다.",
             description = "궁극기 게이지 획득 : 15",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ar3p
         ),
         GameSkill(
             id = 80,
@@ -1249,7 +1240,7 @@ object SampleData {
                     "마나 소모 : 5\n" +
                     "재사용 대기 시간 : 0.5초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.mage1
         ),
         GameSkill(
             id = 81,
@@ -1270,7 +1261,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "사거리 : 10m\n" +
                     "범위 : 3.5m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.mage2
         ),
         GameSkill(
             id = 82,
@@ -1291,7 +1282,7 @@ object SampleData {
                     "이동 속도 감소 시간 : 6초\n" +
                     "재사용 대기 시간 : 5초\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.mage3
         ),
         GameSkill(
             id = 83,
@@ -1310,7 +1301,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "마나 소모 : 15\n" +
                     "사거리 : 7.5m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.mage4
         ),
         GameSkill(
             id = 84,
@@ -1331,7 +1322,7 @@ object SampleData {
                     "마나실드 대미지 감소 : 50%\n" +
                     "재사용 대기 시간 : 25 ~ 18초\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.mage5
         ),
         GameSkill(
             id = 85,
@@ -1345,7 +1336,7 @@ object SampleData {
             description = "마나실드 폭발 대미지 : 공격력의 10%\n" +
                     "블링크 이동거리 : 후방 4m\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.mage5
         ),
         GameSkill(
             id = 86,
@@ -1367,7 +1358,7 @@ object SampleData {
                     "텔레키네시스 바위 파편 수 : 12개\n" +
                     "엘리멘탈 하모니 발동 : 라이트닝, 파이어 볼, 아이스 대거\n" +
                     "궁극기 비용 : 300",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.mage6
         ),
         GameSkill(
             id = 87,
@@ -1381,7 +1372,7 @@ object SampleData {
             description = "전투 중 마나 추가회복 : 2\n" +
                     "기본 공격 적중시 마나회복 : 3\n" +
                     "스킬 적중마다 마나회복 : 1",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.magep
         ),
         GameSkill(
             id = 88,
@@ -1395,8 +1386,8 @@ object SampleData {
             description = "감전 지속 대미지 : 공격력의 10%\n" +
                     "화상 지속 대미지 : 공격력의 20%\n" +
                     "빙결 지속 대미지 : 공격력의 2.1% x 6\n" +
-                    "스킬 강화 발동 제한 :  7초",
-            iconResId = R.drawable.w2p
+                    "스킬 강화 발동 제한 : 7초",
+            iconResId = R.drawable.magep
         ),
         GameSkill(
             id = 89,
@@ -1406,8 +1397,8 @@ object SampleData {
             subtitle = "#패시브\n" +
                     "원거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
                     "적에게 주는 멀티히트 피해가 증가한다.",
-            description = "멀티히트 대미지 증가 5%",
-            iconResId = R.drawable.w2p
+            description = "멀티히트 대미지 증가 : 5%",
+            iconResId = R.drawable.magep
         ),
         GameSkill(
             id = 90,
@@ -1417,10 +1408,10 @@ object SampleData {
             subtitle = "#패시브\n" +
                     "마나를 이용해 원소를 다루는 신비로운 지혜.\n" +
                     "지속 피해: 화상, 지속 피해: 빙결, 지속 피해: 감전 효과를 보유한 적에게 주는 피해가 각각 증가한다.",
-            description = "감전 지속 대미지증가량 :  3%\n" +
-                    "화상 지속 대미지증가량 :   3%\n" +
-                    "빙결 지속 대미지증가량 :   3%",
-            iconResId = R.drawable.w2p
+            description = "감전 지속 대미지증가량 : 3%\n" +
+                    "화상 지속 대미지증가량 : 3%\n" +
+                    "빙결 지속 대미지증가량 : 3%",
+            iconResId = R.drawable.magep
         ),
         GameSkill(
             id = 91,
@@ -1434,7 +1425,7 @@ object SampleData {
             description = "공격력 증가 : 3%\n" +
                     "공격력 증가 최대 효과 : 9%\n" +
                     "공격력 증가 지속 시간 : 5초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.magep
         ),
         GameSkill(
             id = 92,
@@ -1452,7 +1443,7 @@ object SampleData {
                     "재사용 대기 시간 : 8초\n" +
                     "사거리 : 3m\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ice1
         ),
         GameSkill(
             id = 93,
@@ -1471,7 +1462,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "사거리 : 15m\n" +
                     "범위 : 16m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ice2
         ),
         GameSkill(
             id = 94,
@@ -1494,7 +1485,7 @@ object SampleData {
                     "재사용 대기 시간 : 20초\n" +
                     "최대 스택 수 : 2\n" +
                     "보호막이 존재할 경우 넉백 및 브레이크 무시",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ice3
         ),
         GameSkill(
             id = 95,
@@ -1515,7 +1506,7 @@ object SampleData {
                     "범위 : 8m\n" +
                     "지속 시간 : 24초\n" +
                     "재사용 대기 시간 : 8초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ice4
         ),
         GameSkill(
             id = 96,
@@ -1535,7 +1526,7 @@ object SampleData {
                     "캐스팅 시간 : 1.33초\n" +
                     "채널링 시간 : 2.67초\n" +
                     "재사용 대기 시간 : 24초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ice5
         ),
         GameSkill(
             id = 97,
@@ -1559,7 +1550,7 @@ object SampleData {
                     "받는 대미지 감소 지속 시간 : 10초\n" +
                     "지속 시간 : 15초\n" +
                     "궁극기 비용 : 200",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.ice6
         ),
         GameSkill(
             id = 98,
@@ -1571,7 +1562,7 @@ object SampleData {
                     "서리가 3개 이상일 때, 공격을 받으면 서리 1개를 써서 보호막을 만든다." ,
             description = "보호막 생성을 위한 최소 자원 수치 : 450\n" +
                     "흡수량 : 공격력의 8%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.icep
         ),
         GameSkill(
             id = 99,
@@ -1587,7 +1578,7 @@ object SampleData {
                     "동결 대미지 : 공격력의 200%\n" +
                     "동결 발동을 위한 중첩 수 : 20\n" +
                     "동결 임계 체력 : 20%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.icep
         ),
         GameSkill(
             id = 100,
@@ -1599,7 +1590,7 @@ object SampleData {
                     "모든 공격으로부터 받는 피해가 감소하고, 적에게 주는 멀티히트 피해가 증가한다.",
             description = "받는 대미지 감소 15%\n" +
                     "멀티히트 대미지 증가 3%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.icep
         ),
         GameSkill(
             id = 101,
@@ -1613,7 +1604,7 @@ object SampleData {
                     "중첩 당 방어력 증가 : 10%\n" +
                     "중첩 당 대미지 증가 : 4%\n" +
                     "지속 시간 : 10초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.icep
         ),
         GameSkill(
             id = 102,
@@ -1624,11 +1615,11 @@ object SampleData {
                     "적의 상처에 파고든 냉기를 제어하는 전투 방식.\n" +
                     "빙결술사 스킬을 사용할 때마다 일정 확률로 적에게 지속 피해: 빙결을 준다.\n" +
                     "또한, 강타 시 적에게 지속 피해: 빙결을 추가로 준다.",
-            description = "빙결 지속 대미지 : 공격력의5%\n" +
+            description = "빙결 지속 대미지 : 공격력의 5%\n" +
                     "단일 타격형 스킬 확률 : 100%\n" +
                     "연타형 스킬 확률 : 25%\n" +
-                    "강타 시 빙결 지속 대미지 : 공격력의15%",
-            iconResId = R.drawable.w2p
+                    "강타 시 빙결 지속 대미지 : 공격력의 15%",
+            iconResId = R.drawable.icep
         ),
         GameSkill(
             id = 103,
@@ -1645,7 +1636,7 @@ object SampleData {
                     "캐스팅 시간 : 1.6초\n" +
                     "재사용 대기 시간 : 8초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.fire1
         ),
         GameSkill(
             id = 104,
@@ -1667,7 +1658,7 @@ object SampleData {
                     "재사용 대기 시간 : 20초\n" +
                     "사거리 : 10m\n" +
                     "범위 : 2m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.fire2
         ),
         GameSkill(
             id = 105,
@@ -1689,7 +1680,7 @@ object SampleData {
                     "재사용 대기 시간 : 20초\n" +
                     "사거리 : 10m\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.fire3
         ),
         GameSkill(
             id = 106,
@@ -1712,7 +1703,7 @@ object SampleData {
                     "재사용 대기 시간 : 20초\n" +
                     "사거리 : 10m\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.fire3
         ),
         GameSkill(
             id = 107,
@@ -1728,7 +1719,7 @@ object SampleData {
                     "체력 회복 : 2초마다 2%\n" +
                     "재사용 대기 시간 : 40초\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.fire4
         ),
         GameSkill(
             id = 108,
@@ -1745,7 +1736,7 @@ object SampleData {
                     "재사용 대기 시간 : 2초\n" +
                     "최소 열기 소모량 : 50\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.fire5
         ),
         GameSkill(
             id = 109,
@@ -1765,7 +1756,7 @@ object SampleData {
                     "궁극기 비용 : 300\n" +
                     "사거리 : 10m\n" +
                     "범위 : 15m",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.fire6
         ),
         GameSkill(
             id = 110,
@@ -1782,7 +1773,7 @@ object SampleData {
                     "3단계 공격력 증가 : 15%\n" +
                     "1,2단계 지속 시간 : 60초\n" +
                     "3단계 지속 시간 : 25초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.firep
         ),
         GameSkill(
             id = 111,
@@ -1799,7 +1790,7 @@ object SampleData {
                     "불길 지속 시간 : 8초\n" +
                     "불길 공격 시 열기 생성 : 2\n" +
                     "불줄기 생성 재사용 대기 시간 : 20초",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.firep
         ),
         GameSkill(
             id = 112,
@@ -1810,7 +1801,7 @@ object SampleData {
                     "원거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
                     "적에게 주는 멀티히트 피해가 증가한다.\n",
             description = "멀티히트 대미지 증가 5%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.firep
         ),
         GameSkill(
             id = 113,
@@ -1821,7 +1812,7 @@ object SampleData {
                     "작은 불씨에 담긴 열기마저 통제하는 원소 제어 능력.\n" +
                     "기본 공격 시 열기를 생성한다.\n",
             description = "열기 생성 : 3\n",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.firep
         ),
         GameSkill(
             id = 114,
@@ -1834,7 +1825,7 @@ object SampleData {
             description = "1단계 재사용 대기 시간 감소 : 5%\n" +
                     "2단계 재사용 대기 시간 감소 : 10%\n" +
                     "3단계 재사용 대기 시간 감소 : 20%",
-            iconResId = R.drawable.w2p
+            iconResId = R.drawable.firep
         ),
         GameSkill(
             id = 115,
@@ -1856,7 +1847,7 @@ object SampleData {
                     "재사용 대기 시간 : 1초\n" +
                     "빛의 파동 재사용 대기 시간 : 3초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.heal1
         ),
         GameSkill(
             id = 116,
@@ -1873,7 +1864,7 @@ object SampleData {
                     "3단계 총합 대미지 : n x 12\n" +
                     "3단계 총합 회복량 : n x 6\n" +
                     "지속 시간 : 6초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.healp
         ),
         GameSkill(
             id = 117,
@@ -1883,14 +1874,14 @@ object SampleData {
             subtitle = "#강타 #방해\n" +
                     "불안정한 마력 구체로 다수의 적을 제압하는 제어 마법.\n" +
                     "구체가 폭발하며 흩뿌려진 마력이 타겟과 주변의 적들에게 스며들어 지속 피해: 침식을 남기고 공포에 휩싸이게 만든다.",
-            description = "대미지 :n\n" +
+            description = "대미지 : n\n" +
                     "브레이크 대미지 : 1칸\n" +
                     "침식 대미지 : 1초마다 n\n" +
                     "침식 지속 시간 : 10초\n" +
                     "재사용 대기 시간 : 12초\n" +
                     "사거리 : 10m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.heal2
         ),
         GameSkill(
             id = 118,
@@ -1901,9 +1892,9 @@ object SampleData {
                     "적에게 스며든 불안정한 마력을 증폭시키는 제어 마법.\n" +
                     "팬텀 페인의 영향을 받는 모든 적에게 피해와 함께 더욱 강력한 지속 피해: 정신을 준다.\n" +
                     "브레이크된 적의 경우는 그 자리에서 기절한다.",
-            description = "대미지 :n\n" +
-                    "정신 지속 대미지 :n",
-            iconResId = R.drawable.ic_launcher_background
+            description = "대미지 : n\n" +
+                    "정신 지속 대미지 : n",
+            iconResId = R.drawable.healp
         ),
         GameSkill(
             id = 119,
@@ -1922,7 +1913,7 @@ object SampleData {
                     "채널링 시간 : 5초\n" +
                     "재사용 대기 시간 : 10초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.heal3
         ),
         GameSkill(
             id = 120,
@@ -1940,7 +1931,7 @@ object SampleData {
                     "쇠약 지속 시간 : 15초\n" +
                     "쇠약 [시너지] 공격력 감소 : 10%\n" +
                     "재사용 대기 시간 : 15초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.heal4
         ),
         GameSkill(
             id = 121,
@@ -1957,7 +1948,7 @@ object SampleData {
                     "최대 타겟 수 : 3\n" +
                     "재사용 대기 시간 :25초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.heal5
         ),
         GameSkill(
             id = 122,
@@ -1974,7 +1965,7 @@ object SampleData {
                     "지속 시간 : 10초\n" +
                     "궁극기 비용 : 300\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.heal6
         ),
         GameSkill(
             id = 123,
@@ -1987,7 +1978,7 @@ object SampleData {
                     "보호막이 파괴되면 일정 시간 후 재생된다.",
             description = "흡수량 : n\n" +
                     "재사용 대기 시간 : 45초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.healp
         ),
         GameSkill(
             id = 124,
@@ -2000,7 +1991,7 @@ object SampleData {
             description = "[시너지] 공격력 증가 : 10%\n" +
                     "이동 속도 증가 : 15%\n" +
                     "지속 시간 3초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.healp
         ),
         GameSkill(
             id = 125,
@@ -2012,7 +2003,7 @@ object SampleData {
                     "자신의 회복력과 적에게 주는 연타 피해가 증가한다.",
             description = "회복량 증가 : 10%\n" +
                     "연타 대미지 증가 : 3%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.healp
         ),
         GameSkill(
             id = 126,
@@ -2028,7 +2019,7 @@ object SampleData {
                     "추가타 적중시 발동 확률 : 100%\n" +
                     "대미지 증가 중첩당 : 1.5%\n" +
                     "지속 시간 : 각 7초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.healp
         ),
         GameSkill(
             id = 127,
@@ -2042,7 +2033,7 @@ object SampleData {
                     "우호적인 대상에게 라이프 링크를 연결한 경우, 빛의 파동이 추가로 적이 받은 지속 피해: 정신을 퍼뜨린다.",
             description = "발동 확률 : 40%\n" +
                     "정신 지속 대미지 : n",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.healp
         ),
         GameSkill(
             id = 128,
@@ -2063,7 +2054,7 @@ object SampleData {
                     "[시너지] 공격력 증가 : 25%\n" +
                     "재사용 대기 시간 : 8초\n" +
                     "추가 타격 재사용 대기 시간 : 0.5초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priest1
         ),
         GameSkill(
             id = 129,
@@ -2087,7 +2078,7 @@ object SampleData {
                     "신성력 소모 : 25\n" +
                     "사거리 : 10m\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priest2
         ),
         GameSkill(
             id = 130,
@@ -2109,7 +2100,7 @@ object SampleData {
                     "신성력 소모 : 25\n" +
                     "사거리 : 10m\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priest3
         ),
         GameSkill(
             id = 131,
@@ -2129,7 +2120,7 @@ object SampleData {
                     "사용 시 신성력 회복 : 25\n" +
                     "신성력 회복 : 2초마다 2\n" +
                     "범위 : 2.5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priest4
         ),
         GameSkill(
             id = 132,
@@ -2150,7 +2141,7 @@ object SampleData {
                     "신성력 소모 : 50%\n" +
                     "사거리 : 10m\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priest5
         ),
         GameSkill(
             id = 133,
@@ -2169,7 +2160,7 @@ object SampleData {
                     "추가 타격 대미지 증가량 : 50%\n" +
                     "궁극기 비용 : 300\n" +
                     "범위 : 12m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priest6
         ),
         GameSkill(
             id = 134,
@@ -2182,7 +2173,7 @@ object SampleData {
             description = "재생 회복량 : 1초마다 1%\n" +
                     "재생 신성력 회복 : 1초마다 2\n" +
                     "지속 시간 체력 : 5%당 2초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priestp
         ),
         GameSkill(
             id = 135,
@@ -2196,7 +2187,7 @@ object SampleData {
                     "대미지 증가 : 50%\n" +
                     "회복량 증가 : 50%\n" +
                     "지속 시간 신성력 5당 1초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priestp
         ),
         GameSkill(
             id = 136,
@@ -2208,7 +2199,7 @@ object SampleData {
                     "자신의 회복력과 적에게 주는 강타 피해가 증가한다.",
             description = "회복량 증가 10%\n" +
                     "강타 대미지 증가 3%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priestp
         ),
         GameSkill(
             id = 137,
@@ -2219,7 +2210,7 @@ object SampleData {
                     "신의 이름으로 수행한 전투에 내리는 신성한 축복.\n" +
                     "지속 피해: 신성이 부여된 적을 처치하면 신성력을 일부 회복한다.\n",
             description = "신성력 회복 : 10\n",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priestp
         ),
         GameSkill(
             id = 138,
@@ -2233,7 +2224,7 @@ object SampleData {
             description = "신성 대미지 배율 : 20%\n" +
                     "신성력 회복 : 2\n" +
                     "재사용 대기 시간 감소 : 1초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.priestp
         ),
         GameSkill(
             id = 139,
@@ -2254,7 +2245,7 @@ object SampleData {
                     "최대 스택 수 : 2\n" +
                     "사거리 : 3m\n" +
                     "범위 : 8m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monk1
         ),
         GameSkill(
             id = 140,
@@ -2273,7 +2264,7 @@ object SampleData {
                     "재사용 대기 시간 : 15초\n" +
                     "사거리 : 3m\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monk2
         ),
         GameSkill(
             id = 141,
@@ -2295,7 +2286,7 @@ object SampleData {
                     "재사용 대기 시간 : 12초\n" +
                     "범위 : 2.5m\n" +
                     "보호막 폭발 범위 : 4m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monk3
         ),
         GameSkill(
             id = 142,
@@ -2316,7 +2307,7 @@ object SampleData {
                     "재사용 대기 시간 : 8초\n" +
                     "캐스팅 시간 : 1초\n" +
                     "범위 : 3m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monk4
         ),
         GameSkill(
             id = 143,
@@ -2332,7 +2323,7 @@ object SampleData {
                     "지속 시간 : 15초\n" +
                     "범위 : 10m\n" +
                     "기본 공격 범위 : 3m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monk5
         ),
         GameSkill(
             id = 144,
@@ -2348,7 +2339,7 @@ object SampleData {
                     "지속 시간 : 10초\n" +
                     "궁극기 비용 : 300\n" +
                     "범위 : 6m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monk6
         ),
         GameSkill(
             id = 145,
@@ -2363,7 +2354,7 @@ object SampleData {
                     "최대 공격속도 증가 : 18%\n" +
                     "진언 1종당 신성력 회복 : 1초마다 2\n" +
                     "범위 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monkp
         ),
         GameSkill(
             id = 146,
@@ -2375,7 +2366,7 @@ object SampleData {
                     "신성력 소모 시 일정 확률로 위력이 증가된 쇄도, 벽력타, 수호진 중 하나를 즉시 사용할 수 있다.",
             description = "발동 확률 : 30%\n" +
                     "대미지 증가 : 10%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monkp
         ),
         GameSkill(
             id = 147,
@@ -2387,7 +2378,7 @@ object SampleData {
                     "자신의 회복력과 적에게 주는 연타 피해가 증가한다.",
             description = "회복량 증가 : 10%\n" +
                     "연타 대미지 증가 : 3%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monkp
         ),
         GameSkill(
             id = 148,
@@ -2399,7 +2390,7 @@ object SampleData {
                     "깨달음 발동 시, 잠시 동안 공격력이 대폭 증가한다.",
             description = "공격력 증가 : 20%\n" +
                     "지속 시간 : 4초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monkp
         ),
         GameSkill(
             id = 149,
@@ -2410,7 +2401,7 @@ object SampleData {
                     "흘러넘치는 신성을 온전히 받아들이는 드높은 수양의 경지.\n" +
                     "이미 활성화된 진언 효과를 다시 얻을 때, 신성력을 회복한다.",
             description = "신성력 회복 : 10",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.monkp
         ),
         GameSkill(
             id = 150,
@@ -2432,7 +2423,7 @@ object SampleData {
                     "연쇄 범위 : 5m\n" +
                     "재사용 대기시간 : 12초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel1
         ),
         GameSkill(
             id = 151,
@@ -2452,7 +2443,7 @@ object SampleData {
                     "재사용 대기 시간 : 15초\n" +
                     "사거리 : 5m\n" +
                     "범위 : 2.5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel2
         ),
         GameSkill(
             id = 152,
@@ -2471,7 +2462,7 @@ object SampleData {
                     "재사용 대기 시간 : 15초\n" +
                     "사거리 : 5m\n" +
                     "범위 : 5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel3
         ),
         GameSkill(
             id = 153,
@@ -2494,7 +2485,7 @@ object SampleData {
                     "채널링 시간 : 5초\n" +
                     "재사용 대기 시간 : 6초\n" +
                     "범위 : 6m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel4
         ),
         GameSkill(
             id = 154,
@@ -2517,7 +2508,7 @@ object SampleData {
                     "채널링 시간 : 3초\n" +
                     "재사용 대기 시간 : 6초\n" +
                     "범위 : 6m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel4_1
         ),
         GameSkill(
             id = 155,
@@ -2539,7 +2530,7 @@ object SampleData {
                     "채널링 시간 : 3초\n" +
                     "재사용 대기 시간 : 6초\n" +
                     "범위 : 6m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel4_2
         ),
         GameSkill(
             id = 156,
@@ -2563,7 +2554,7 @@ object SampleData {
                     "채널링 시간 : 3초\n" +
                     "재사용 대기 시간 : 6초\n" +
                     "범위 : 6m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel4_3
         ),
         GameSkill(
             id = 157,
@@ -2577,7 +2568,7 @@ object SampleData {
             description = "회복량 : 최대 체력의 2% x 8\n" +
                     "죽은 척 지속 시간 : 4초\n" +
                     "재사용 대기 시간 : 20초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel5
         ),
         GameSkill(
             id = 158,
@@ -2592,7 +2583,7 @@ object SampleData {
                     "브레이크 대미지 : 1칸\n" +
                     "재사용 대기 시간 : 12초\n" +
                     "공격 범위 : 3.5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel5_1
         ),
         GameSkill(
             id = 159,
@@ -2610,7 +2601,7 @@ object SampleData {
                     "[시너지] 공격력 증가 : 30%\n" +
                     "궁극기 비용 : 300\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrel6
         ),
         GameSkill(
             id = 160,
@@ -2625,7 +2616,7 @@ object SampleData {
                     "타격 스킬의 대미지 증가 : 3%~15%\n" +
                     "연주 스킬의 대미지 증가 : 2%~10%\n" +
                     "궁극기 게이지 추가 획득 : 1~5",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrelp1
         ),
         GameSkill(
             id = 161,
@@ -2640,7 +2631,7 @@ object SampleData {
                     "용맹 악상: 멜로디 쇼크, 적에게 브레이크를 걸었을 때, 브레이크 걸린 적을 공격했을 때\n" +
                     "희망 악상: 트리플 스트로크(일반), 바즈 테일(일반), 불협화음(즉흥 룬), 승리의 세레모니(조롱 룬), 배틀 심포니\n" +
                     "반격 악상: 자신이 브레이크에 걸렸을 때, 죽은 척 하기(일반/기만 룬), 맞은 척 하기(재치 룬)",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrelp2
         ),
         GameSkill(
             id = 162,
@@ -2652,7 +2643,7 @@ object SampleData {
                     "자신의 회복력과 적에게 주는 밀티 히트 피해가 증가한다.",
             description = "회복량 증가 : 10%\n" +
                     "멀티히트 대미지 증가 : 3%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrelp3
         ),
         GameSkill(
             id = 163,
@@ -2666,7 +2657,7 @@ object SampleData {
                     "추가타 확률 증가 : 3%\n" +
                     "지속 시간 : 30초\n" +
                     "최대 중첩 수 : 3",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrelp4
         ),
         GameSkill(
             id = 164,
@@ -2677,7 +2668,7 @@ object SampleData {
                     "타오르는 전장의 기운을 담아내는 연주\n" +
                     "피버효과를 얻으면 적에게 주는 치명타 피해가 증가한다.",
             description = "치명타 대미지 증가 10%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.minstrelp5
         ),
         GameSkill(
             id = 165,
@@ -2693,7 +2684,7 @@ object SampleData {
                     "후방 이동 범위 : 1.8m\n" +
                     "사거리 : 6.5m\n" +
                     "범위 : 2.5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancer1
         ),
         GameSkill(
             id = 166,
@@ -2710,7 +2701,7 @@ object SampleData {
                     "브레이크 대미지 : 1칸\n" +
                     "사거리 : 2m\n" +
                     "범위 : 2.5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancer2
         ),
         GameSkill(
             id = 167,
@@ -2726,7 +2717,7 @@ object SampleData {
                     "재사용 대기 시간 : 8초\n" +
                     "사거리 : 6.5m\n" +
                     "범위 : 2.5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancer3
         ),
         GameSkill(
             id = 168,
@@ -2743,7 +2734,7 @@ object SampleData {
                     "기본 공격 사거리 증가 지속 시간 : 5초\n" +
                     "사거리 : 2m\n" +
                     "범위 : 2.5m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancer4
         ),
         GameSkill(
             id = 169,
@@ -2759,7 +2750,7 @@ object SampleData {
                     "재사용 대기 시간 : 10초\n" +
                     "사거리 : 4m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancer5
         ),
         GameSkill(
             id = 173,
@@ -2778,7 +2769,7 @@ object SampleData {
                     "궁극기 비용 : 300\n" +
                     "사거리 : 4m\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancer6
         ),
         GameSkill(
             id = 174,
@@ -2794,7 +2785,7 @@ object SampleData {
                     "템포 최대 중첩 수 : 2\n" +
                     "지속 시간 : 15초\n" +
                     "체력 회복 : n",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancerp1
         ),
         GameSkill(
             id = 175,
@@ -2807,7 +2798,7 @@ object SampleData {
                     "추는 동안 기본 공격과 스킬 사용은 불가하나, 자유롭게 이동할 수 있다.",
             description = "대미지 : n x 6\n" +
                     "범위 : 4m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancerp2
         ),
         GameSkill(
             id = 176,
@@ -2819,7 +2810,7 @@ object SampleData {
                     "적에게 주는 연타 피해가 증가한다.",
             description = "받는 기본 공격 대미지 감소 10%\n" +
                     "연타 대미지 증가 5%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancerp3
         ),
         GameSkill(
             id = 177,
@@ -2831,7 +2822,7 @@ object SampleData {
                     "특정 스킬의 최대 사용 횟수가 증가하며, 앵콜 동안 2회 중첩된 강화 공격: 템포를 얻는다.",
             description = "내추럴 턴 스택 수 : 2\n" +
                     "프론트 스텝 스택 수 : 2",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancerp4
         ),
         GameSkill(
             id = 178,
@@ -2842,7 +2833,7 @@ object SampleData {
                     "일대일 댄스를 추는 요령을 활용한 공격 기술.\n" +
                     "댄서의 스킬이 단일 타겟에게 적중 시, 피해가 증가한다.",
             description = "단일 타겟 대미지 증가 10%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.dancerp5
         ),
         GameSkill(
             id = 179,
@@ -2865,7 +2856,7 @@ object SampleData {
                     "크레센도 적용 시 무드 상승 : 20\n" +
                     "재사용 대기 시간 : 15초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard1
         ),
         GameSkill(
             id = 180,
@@ -2884,7 +2875,7 @@ object SampleData {
                     "크레센도 적용 시 무드 상승 : 1초마다 6\n" +
                     "재사용 대기 시간 : 18초\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard2
         ),
         GameSkill(
             id = 181,
@@ -2898,7 +2889,7 @@ object SampleData {
                     "후속 악장을 연주할수록 무드가 크게 상승한다.",
             description = "연주 연계 제한 시간 : 10초\n" +
                     "재사용 대기 시간 : 20초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard3
         ),
         GameSkill(
             id = 182,
@@ -2916,7 +2907,7 @@ object SampleData {
                     "무드 상승 : 15\n" +
                     "크레센도 적용 시 무드 상승 : 30\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard3_1
         ),
         GameSkill(
             id = 183,
@@ -2934,7 +2925,7 @@ object SampleData {
                     "무드 상승 : 20\n" +
                     "크레센도 적용 시 무드 상승 : 40\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard3_2
         ),
         GameSkill(
             id = 184,
@@ -2955,7 +2946,7 @@ object SampleData {
                     "범위 : 1.5m\n" +
                     "크레센도 적용 시 범위 : 2.5m\n" +
                     "최대 타겟 수 : 8",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard3_3
         ),
         GameSkill(
             id = 185,
@@ -2973,7 +2964,7 @@ object SampleData {
                     "무드 하강 : 50%\n" +
                     "재사용 대기 시간 : 15초\n" +
                     "범위 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard4
         ),
         GameSkill(
             id = 186,
@@ -2992,7 +2983,7 @@ object SampleData {
                     "무등 하강 : 40\n" +
                     "재사용 대기 시간 : 8초\n" +
                     "범위 : 15m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard5
         ),
         GameSkill(
             id = 187,
@@ -3012,7 +3003,7 @@ object SampleData {
                     "중복 타격 시 대미지 배율 : 20%\n" +
                     "궁극기 비용 : 300\n" +
                     "사거리 : 10m",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bard6
         ),
         GameSkill(
             id = 188,
@@ -3024,7 +3015,7 @@ object SampleData {
                     "무드가 균형을 넘나들 때마다, 다음 스킬 공격의 위력이 증가한다.\n" +
                     "무드는 연주 스킬 사용 시 상승하며 기교 스킬 사용 시 하강한다.",
             description = "스킬 대미지 증가 25%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bardp1
         ),
         GameSkill(
             id = 189,
@@ -3038,7 +3029,7 @@ object SampleData {
                     "투사체 수 : 6\n" +
                     "최대 스택 수 : 3\n" +
                     "지속 시간 : 20초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bardp2
         ),
         GameSkill(
             id = 190,
@@ -3049,7 +3040,7 @@ object SampleData {
                     "원거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
                     "적에게 주는 연타 피해가 증가한다.",
             description = "연타 대미지 증가 : 5%",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bardp3
         ),
         GameSkill(
             id = 191,
@@ -3060,7 +3051,7 @@ object SampleData {
                     "화려한 연주를 쉼없이 이어가는 대가의 손놀림.\n" +
                     "모데라토 발동 시, 무작위 스킬의 재사용 대기 시간이 감소한다.",
             description = "재사용 대기 시간 감소 : 3초",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bardp4
         ),
         GameSkill(
             id = 192,
@@ -3071,28 +3062,824 @@ object SampleData {
                     "격정적인 연주로 관객을 이끄는 섬세한 기교.\n" +
                     "기본 공격 시 무드가 상승하며, 에코 효과를 보유한 경우 상승폭이 더욱 커진다.",
             description = "무드 상승 : 1",
-            iconResId = R.drawable.ic_launcher_background
+            iconResId = R.drawable.bardp5
         ),
+        GameSkill(
+            id = 193,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "쓰로잉 봄",
+            subtitle = "#강타 #방해\n" +
+                    "숨겨둔 폭탄을 불시에 던지는 투척 공격.\n" +
+                    "날아간 폭탄은 폭발과 함께 주변의 적들에게 범위 피해를 준다.\n" +
+                    "피격된 적은 일정 시간 동안 더 큰 피해를 받는다.\n" +
+                    "오버 차지 단계 발동 시, 폭탄의 수량과 강도가 증가한다.\n",
+            description = "1단계 대미지 : n\n" +
+                    "2단계 대미지 : n x 2\n" +
+                    "3단계 대미지 : n x 3\n" +
+                    "1단계 재사용 대기 시간 : 7초\n" +
+                    "2단계 재사용 대기 시간 : 5초\n" +
+                    "3단계 재사용 대기 시간 : 3초\n" +
+                    "[시너지] 받는 대미지 증가 : 10%\n" +
+                    "[시너지] 받는 대미지 증가 지속 시간 : 10초\n" +
+                    "사거리 : 12m\n" +
+                    "범위 : 3m",
+            iconResId = R.drawable.thief1
+        ),
+        GameSkill(
+            id = 194,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "스크류 대거",
+            subtitle ="#연타 #방해\n" +
+                    "회오리처럼 날아올라 주변 적을 연타하는 상승 공격.\n" +
+                    "적을 브레이크 시키면 공중으로 높이 떠오른다.\n" +
+                    "오버 차지 단계 발동 시, 공격 횟수가 증가하며 추가 타격이 발생한다.",
+            description = "1단계 대미지 : n x 3\n" +
+                    "2단계 대미지 : n x 3\n" +
+                    "2단계 추가 타격 대미지 :n x 3\n" +
+                    "브레이크 대미지 : 1칸\n" +
+                    "1단계 재사용 대기 시간 : 7초\n" +
+                    "2단계 재사용 대기 시간 : 5초\n" +
+                    "사거리 : 2.5m\n" +
+                    "범위 : 2.5m",
+            iconResId = R.drawable.thief2
+        ),
+        GameSkill(
+            id = 195,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "기습",
+            subtitle = "#강타 #이동\n" +
+                    "신속하게 움직여 적의 배후를 파고드는 기습 공격.\n" +
+                    "무방비한 적의 등 뒤를 노려 단검을 깊숙이 찔러 넣는다.\n" +
+                    "오버 차지 단계 발동 시, 적의 뒤로 즉시 이동하며 추가로 지속 피해: 출혈을 준다.",
+            description = "1단계 대미지 : n\n" +
+                    "2단계 대미지 : n\n" +
+                    "1단계 재사용 대기 시간 : 9초\n" +
+                    "2단계 재사용 대기 시간 : 7초\n" +
+                    "출혈 지속 대미지 : n\n" +
+                    "사거리 : 12m",
+            iconResId = R.drawable.thief3
+        ),
+        GameSkill(
+            id = 196,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "포이즌 트랩",
+            subtitle = "#연타 #방해 #소환\n" +
+                    "독이 가득한 주머니를 터뜨려 독 지대를 만드는 함정 공격.\n" +
+                    "독 지대는 일정 시간 동안 유지되며 범위 내의 적들에게 지속 피해: 중독을 주고, 이동 속도와 공격 속도를 감소시킨다.",
+            description = "대미지 : 0.5초당 n\n" +
+                    "독 지대 지속 시간 : 7초\n" +
+                    "중독 지속 대미지 : n\n" +
+                    "재사용 대기 시간 : 12초\n" +
+                    "사거리 : 2.5m\n" +
+                    "범위 : 3.5m\n" +
+                    "공격 속도 감소 : 25%\n" +
+                    "이동 속도 감소 : 50%",
+            iconResId = R.drawable.thief4
+        ),
+        GameSkill(
+            id = 197,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "은신",
+            subtitle = "#생존 #이동 #방해\n" +
+                    "그림자를 휘감아 적의 시야로부터 벗어나는 은신 기술.\n" +
+                    "범위 피해를 제외한 적의 공격으로부터 자유로워진다.\n" +
+                    "은신 상태에서 단검을 이용한 직접 공격 시, 추가 타격과 함께 타겟을 기절시킨다.",
+            description = "은신 지속 시간 : 6초\n" +
+                    "은신 추가 타격 대미지 : n\n" +
+                    "은신 브레이크 대미지 : 1칸\n" +
+                    "추가 효과 적용 : 기본 공격, 스크류 대거, 기습, 블리츠 러시\n" +
+                    "재사용 대기 시간 : 18초\n" +
+                    "사거리 : 12m",
+            iconResId = R.drawable.thief5
+        ),
+        GameSkill(
+            id = 198,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "블리츠 러시",
+            subtitle = "#연타 #생존\n" +
+                    "보이지 않는 속도로 적들을 휩쓰는 비기.\n" +
+                    "바람처럼 뛰쳐나가 타겟을 벤 후, 혜성처럼 달리며 주변의 적들에게 범위 피해를 준다.\n" +
+                    "범위 공격 시, 범위 피해를 제외한 적의 공격으로부터 자유로워진다.\n" +
+                    "추가로 쓰로잉 봄, 기습의 재사용 대기 시간이 초기화된다.\n" +
+                    "-『맘껏 쫓아와 봐, 따라올 수만 있다면.』",
+            description = "타겟 대미지 : n\n" +
+                    "범위 대미지 : n x 7\n" +
+                    "재사용 대기 시간 초기화 : 쓰로잉 봄, 기습\n" +
+                    "궁극기 비용 : 300\n" +
+                    "사거리 : 12m\n" +
+                    "범위 : 5m",
+            iconResId = R.drawable.thief6
+        ),
+        GameSkill(
+            id = 199,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "아드레날린",
+            subtitle = "#패시브\n" +
+                    "몸놀림 하나하나에 각인된 기민한 전투감각.\n" +
+                    "오버 차지 단계 발동 시, 일정 시간 동안 기본 공격이 빨라진다.",
+            description = "기본 공격 속도 증가 : 20%\n" +
+                    "1단계 지속 시간 : 4초\n" +
+                    "2단계 지속 시간 : 7초\n" +
+                    "3단계 지속 시간 : 10초",
+            iconResId = R.drawable.thiefp1
+        ),
+        GameSkill(
+            id = 200,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "스닉 어택",
+            subtitle = "#패시브\n" +
+                    "약점을 포착한 순간 놓치지 않고 달려드는 전투 본능.\n" +
+                    "적을 브레이크 시킬 시, 일정 시간 동안 기본 공격에 추가 타격이 발생한다.\n",
+            description = "추가 타격 대미지 : n\n"+
+                    "추가 타격 지속 시간 : 10초",
+            iconResId = R.drawable.thiefp2
+        ),
+        GameSkill(
+            id = 201,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "전투 숙련: 쾌속",
+            subtitle = "#패시브\n" +
+                    "근거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
+                    "기본 공격에 받는 피해가 감소하고, 적에게 주는 연타 피해가 증가한다.",
+            description = "받는 기본 공격 대미지 감소 : 10%\n" +
+                    "연타 대미지 증가 : 5%",
+            iconResId = R.drawable.thiefp3
+        ),
+        GameSkill(
+            id = 202,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "포이즌 어택",
+            subtitle = "#패시브\n" +
+                    "순간의 빈틈 사이로 독을 퍼뜨리는 은밀한 손놀림.\n" +
+                    "기본 공격 적중 시, 일정 확률로 지속 피해: 중독을 건다.",
+            description = "중독 지속 대미지 : n\n" +
+                    "중독 발동 확률 : 10%",
+            iconResId = R.drawable.thiefp4
+        ),
+        GameSkill(
+            id = 203,
+            jobGroup = "도적",
+            jobClass = "도적",
+            title = "포이즌 익스플로전",
+            subtitle = "#패시브\n" +
+                    "적의 몸에 퍼진 맹독을 단번에 폭발시키는 기술.\n" +
+                    "스크류 대거, 기습 스킬 사용 시 적이 보유한 지속 피해: 중독이 바로 폭발한다.\n" +
+                    "중독이 폭발하면 남아 있는 중독 피해를 일시에 준다. 폭발 시 주는 중독 대미지가 증가한다.",
+            description = "중독 대미지 증가 : 5%",
+            iconResId = R.drawable.thiefp5
+        ),
+        GameSkill(
+            id = 204,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "차징 피스트",
+            subtitle = "#강타 #이동 #방해\n" +
+                    "주먹에 기운을 모아 내지르는 집중 타격.\n" +
+                    "적에게 돌진으로 이동해 피해를 주며 차징 단계에 따라 피해량이 증가한다.\n" +
+                    "상대의 방어를 무너뜨려, 일정 시간 동안 적이 받는 피해가 증가한다.\n" +
+                    "1단계 연속기 스킬이며, 사용 후 스크류 어퍼 또는 스톰프 킥으로 연계할 수 있다.",
+            description = "기본 대미지 : n\n" +
+                    "1단계 대미지 : n\n" +
+                    "2단계 대미지 : n\n" +
+                    "3단계 대미지 : n\n" +
+                    "단계별 차징 시간 : 0.8초\n" +
+                    "[시너지] 받는 대미지 증가 : 10%\n" +
+                    "[시너지] 받는 대미지 증가 : 12초\n" +
+                    "재사용 대기 시간 : 15초\n" +
+                    "사거리 : 8m\n" +
+                    "연속기 스킬 제한 시간 : 5초",
+            iconResId = R.drawable.fighter1
+        ),
+        GameSkill(
+            id = 205,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "스크류 어퍼\n",
+            subtitle = "#강타 #방해\n" +
+                    "섬광처럼 뛰어올라 강력한 어퍼컷을 날리는 기습 공격.\n" +
+                    "1단계 연속기 이후 사용할 수 있는 2단계 연속기 스킬이다.",
+            description = "대미지 : n\n" +
+                    "사거리 : 1.65m",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 206,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "스러스트 킥\n",
+            subtitle = "#강타 #방해\n"+
+                    "무릎을 올려 급소를 공격하는 제압 공격.\n" +
+                    "1단계 연속기 스킬이며, 사용 후 스크류 어퍼 또는 스톰프 킥으로 연계할 수 있다.",
+            description = "대미지 : n\n" +
+                    "브레이크 대미지 : 1칸\n" +
+                    "재사용 대기 시간 : 14초\n" +
+                    "사거리 : 1.65m\n" +
+                    "연속기 스킬 제한 시간 : 5초",
+            iconResId = R.drawable.fighter2
+        ),
+        GameSkill(
+            id = 207,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "스톰프 킥",
+            subtitle = "#강타 #이동\n" +
+                    "온몸을 내던져 적에게 이동해 적 주변을 내리찍는 공중 돌격.\n" +
+                    "착지 지점 주변의 적들에게 범위 피해를 준다.\n" +
+                    "브레이크된 적 공격 시, 추가 피해를 준다.\n" +
+                    "1단계 연속기 이후 사용할 수 있는 2단계 연속기 스킬이다.",
+            description = "대미지 : n\n" +
+                    "브레이크 대상 추가 대미지 : n\n" +
+                    "사거리 : 8m\n" +
+                    "범위 : 2.5m",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 208,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "백 스텝",
+            subtitle = "#이동 #생존 #보조\n" +
+                    "날렵하게 뒤로 덤블링하며 이동해 거리를 벌리는 회피 기술.\n" +
+                    "가까운 곳에 적이 있으면 발로 밀쳐 피해를 준다.\n" +
+                    "착지 후, 다음 연속기 스킬 또는 콤보 스킬의 피해량이 증가한다.\n" +
+                    "일정 시간 동안 자신의 이동 속도가 증가한다.",
+            description = "대미지 : n\n" +
+                    "스킬 대미지 증가 : 50%\n" +
+                    "근접 공격 발동 사거리 조건 : 0.5m\n" +
+                    "재사용 대기 시간 : 10초\n" +
+                    "이동 속도 증가 : 70%\n" +
+                    "이동 속도 증가 지속 시간 : 4초",
+            iconResId = R.drawable.fighter3
+        ),
+        GameSkill(
+            id = 209,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "버스트 펀치: 1격",
+            subtitle = "#강타 #보조\n" +
+                    "오른쪽 주먹을 빠르게 내지르는 신속 타격.\n" +
+                    "주먹에 담은 기운이 퍼져나가며 범위 피해를 준다.\n" +
+                    "셋 이상의 적을 공격 시, 추가 피해를 준다.\n" +
+                    "1단계 콤보 스킬이며 후속으로 버스트 펀치: 2격으로 연계할 수 있다.\n",
+            description = "대미지 : n\n" +
+                    "3타겟 이상 공격 시 대미지 : n\n" +
+                    "재사용 대기 시간 : 15초\n" +
+                    "사거리 : 1.65m\n" +
+                    "범위 : 1.5m\n" +
+                    "콤보 스킬 제한 시간 : 5초",
+            iconResId = R.drawable.fighter4
+        ),
+        GameSkill(
+            id = 210,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "버스트 펀치: 2격",
+            subtitle = "#강타 #보조\n" +
+                    "왼쪽 주먹을 빠르게 내지르는 신속 타격.\n" +
+                    "끌어낸 기운을 증폭시켜 더욱 강한 범위 피해를 준다.\n" +
+                    "셋 이상의 적을 공격 시, 추가 피해를 준다.\n" +
+                    "2단계 콤보 스킬이며 후속으로 버스트 펀치: 3격으로 연계할 수 있다.",
+            description = "대미지 : n\n" +
+                    "3타겟 이상 공격 시 대미지 : n\n" +
+                    "사거리 : 1.65m\n" +
+                    "범위 : 1.5m\n" +
+                    "콤보 스킬 제한 시간 : 5초",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 211,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "버스트 펀치: 3격",
+            subtitle = "#강타 #보조\n" +
+                    "양쪽 주먹에 기운을 모아 폭발시키는 집중 타격.\n" +
+                    "폭발한 기운이 대기를 뒤흔들며 적들에게 범위 피해를 준다.\n" +
+                    "셋 이상의 적을 공격 시, 추가 피해를 준다.\n" +
+                    "콤보 스킬의 마지막 스킬로 스킬 피해 범위가 증가한다.",
+            description = "대미지 : n\n" +
+                    "3타겟 이상 공격 시 대미지 : n\n" +
+                    "사거리 : 1.65m\n" +
+                    "범위 : 3m",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 212,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "섬머솔트: 1격",
+            subtitle = "#강타 #이동\n" +
+                    "오른쪽 발을 이용한 신속한 돌려 차기.\n" +
+                    "거센 회전력을 발판 삼아 적에게 이동해 공격한다.\n" +
+                    "1단계 콤보 스킬이며 후속으로 섬머솔트: 2격으로 연계할 수 있다.",
+            description = "대미지 : n\n" +
+                    "재사용 대기 시간 : 14초\n" +
+                    "사거리 : 8m\n" +
+                    "콤보 스킬 제한 시간 : 5초",
+            iconResId = R.drawable.fighter5
+        ),
+        GameSkill(
+            id = 213,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "섬머솔트: 2격",
+            subtitle = "#강타 #이동\n" +
+                    "한 번 더 회전하며 발로 공격하는 신속한 돌려 차기.\n" +
+                    "발밑에서 끌어올린 파괴력으로 적에게 이동해 공격한다.\n" +
+                    "2단계 콤보 스킬이며 후속으로 섬머솔트: 3격으로 연계할 수 있다.",
+            description = "대미지 : n\n" +
+                    "사거리 : 8m\n" +
+                    "콤보 스킬 제한 시간 : 5초",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 214,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "섬머솔트: 3격",
+            subtitle = "#강타 #이동\n" +
+                    "덤블링하면서 발로 공격하는 거센 올려 차기.\n" +
+                    "정신 차릴 틈조차 주지 않고 적에게 이동해 공격한다.\n" +
+                    "3단계 콤보 스킬이며 더 강력한 피해를 준다.",
+            description = "대미지 : n\n" +
+                    "사거리 : 8m",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 215,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "오버드라이브",
+            subtitle = "#생존 #보조\n" +
+                    "육체의 한계를 뛰어넘는 궁극의 오의.\n" +
+                    "일정 시간, 모든 스킬의 재사용 대기 시간이 비약적으로 감소한다.\n" +
+                    "자유자재로 기술을 넘나들며 거침없는 맹공을 퍼부을 수 있다.\n" +
+                    "-『넘어서라, 퍼부어라, 승리하라!』",
+            description = "재사용 대기 시간 감소 : 80%\n" +
+                    "재사용 대기 시간 감소 지속 시간 : 9초\n" +
+                    "궁극기 비용 : 300",
+            iconResId = R.drawable.fighter6
+        ),
+        GameSkill(
+            id = 216,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "연계 공격",
+            subtitle = "#패시브\n" +
+                    "흐르는 물처럼 유연하게 기술을 잇는 격투 감각.\n" +
+                    "2단계 연속기 스킬 사용 시, 콤보 스킬의 피해량이 증가한다.\n" +
+                    "3단계 콤보 스킬 사용 시, 연속기 스킬의 피해량이 증가한다.",
+            description = "스킬 대미지 증가 : 5%\n" +
+                    "스킬 대미지 증가 지속 시간 : 15초\n" +
+                    "최대 중첩 수 : 3",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 217,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "회심의 일격",
+            subtitle = "#패시브\n" +
+                    "승부를 확실하게 마무리 짓는 격투 의지.\n" +
+                    "1단계 연속기 스킬 사용 시, 다음 연속기 스킬 또는 콤보 스킬 사용 시 추가 타격이 발생한다.\n" +
+                    "2단계 콤보 스킬 사용 시, 다음 연속기 스킬 또는 콤보 스킬 사용 시 추가 타격이 발생한다.",
+            description = "추가 타격 대미지 : 35%",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 218,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "전투 숙련: 파멸",
+            subtitle = "#패시브\n" +
+                    "근거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
+                    "기본 공격에 받는 피해가 감소하고, 적에게 주는 무방비 피해가 증가한다.",
+            description = "받는 기본 공격 대미지 감소 : 10%\n" +
+                    "무방비 대미지 증가 : 5%",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 219,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "응급처치",
+            subtitle = "#패시브\n" +
+                    "위기의 순간에도 전투를 이어 나가는 노련한 대처법.\n" +
+                    "적 처치 시 공격력의 일부만큼 체력을 회복한다.\n" +
+                    "해당 효과는 일정 시간마다 한 번만 발동한다.",
+            description = "체력 회복 : 공격력의 15%\n" +
+                    "체력 회복 발동 제한 : 5초",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 220,
+            jobGroup = "도적",
+            jobClass = "격투가",
+            title = "충격파",
+            subtitle = "#패시브\n" +
+                    "고도로 단련된 신체에서 뿜어내는 매서운 기세.\n" +
+                    "궁극기를 제외한 스킬을 3회 사용할 때마다 범위 피해를 주는 충격파가 발생한다.\n" +
+                    "충격파 발동 조건은 일정 시간이 지나면 초기화된다.",
+            description = "충격파 대미지 : n\n" +
+                    "충격파 반경 : 3m\n" +
+                    "충격파 초기화 시간 : 60초",
+            iconResId = R.drawable.fighterp
+        ),
+        GameSkill(
+            id = 221,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "스플릿 슬래시",
+            subtitle = "#연타 #보조\n" +
+                    "두 개의 검을 깊숙이 찔러 약점을 노리는 급소 공격.\n" +
+                    "적에게 이동해 검을 찔러 넣은 후에 날개를 펼치듯 휘둘러 피해를 준다.\n" +
+                    "일정 시간 적의 근접 방어를 일정 비율 무시하는 효과를 얻는다.",
+            description = "대미지 : n x 4\n" +
+                    "방어력 무시 : 10%\n" +
+                    "방어력 무시 지속시간 : 45초\n" +
+                    "방어력 무시 중첩 : 1회\n" +
+                    "방어력 무시 최대 중첩 : 4회\n" +
+                    "재사용 대기 시간 : 12초\n" +
+                    "사거리 : 6m",
+            iconResId = R.drawable.dualblade1
+        ),
+        GameSkill(
+            id = 222,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "스플릿 다운",
+            subtitle = "#연타 #보조\n" +
+                    "두 개의 검을 내려 찍어 약점을 노리는 급소 공격.\n" +
+                    "적에게 이동해 검으로 내려 찍어 타겟에게 더욱 큰 피해를 준다.\n" +
+                    "또한 일정 시간 동안 적의 근접 방어를 일정 비율로 무시하는 효과를 즉시 중첩시켜 얻는다.",
+            description = "대미지 : n x 4\n" +
+                    "방어력 무시 : 10%\n" +
+                    "방어력 무시 지속시간 : 45초\n" +
+                    "방어력 무시 중첩 : 3회\n" +
+                    "방어력 무시 최대 중첩 : 4회\n" +
+                    "질풍 자원 소모 : 4개\n" +
+                    "사거리 : 6m",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 223,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "더블 크레센트",
+            subtitle = "#연타 #방해\n" +
+                    "몸을 크게 회전하여 올려 치는 회전 공격.\n" +
+                    "공격을 맞고 브레이크된 적은 높이 떠오른다.\n" +
+                    "이미 브레이크된 적을 공격 시, 큰 피해를 준다.",
+            description = "대미지 : n x 2\n" +
+                    "브레이크된 적 공격시 대미지 : n x 2\n" +
+                    "브레이크 대미지 : 1칸\n" +
+                    "재사용 대기 시간 : 17초\n" +
+                    "사거리 : 1.65m",
+            iconResId = R.drawable.dualblade2
+        ),
+        GameSkill(
+            id = 224,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "라이징 크레센트",
+            subtitle = "#연타 #방해\n" +
+                    "몸을 크게 회전하여 올려 치는 회전 공격.\n" +
+                    "공격을 맞고 브레이크된 적은 높이 떠오른다.\n" +
+                    "이미 브레이크된 적을 공격 시, 큰 피해를 준다.",
+            description = "대미지 : n x 6\n" +
+                    "브레이크된 적 공격시 대미지 : n x 6\n" +
+                    "브레이크 대미지 : 2칸\n" +
+                    "질풍 자원 소모 : 4개\n" +
+                    "사거리 : 1.65m",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 225,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "스핀 러시",
+            subtitle = "#연타 #이동 #방해\n" +
+                    "회오리바람처럼 휘돌며 베어내는 회전 공격.\n" +
+                    "순간적으로 몸을 회전해 짧은 거리를 이동하며 주변 적들을 여러 번 베고 범위 피해를 준다.",
+            description = "대미지 : n x 7\n" +
+                    "재사용 대기 시간 : 12초\n" +
+                    "사거리 : 3.3m\n" +
+                    "범위 : 2m",
+            iconResId = R.drawable.dualblade3
+        ),
+        GameSkill(
+            id = 226,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "스크류 러시",
+            subtitle = "#연타 #이동 #방해\n" +
+                    "회오리바람처럼 휘돌며 베어내는 회전 공격.\n" +
+                    "순간적으로 몸을 회전해 짧은 거리를 이동하며 주변 적들을 여러 번 베고 범위 피해를 준다.\n" +
+                    "또한 일정 시간 동안 적에게 지속 피해: 출혈을 추가로 준다.",
+            description = "총합 대미지 : n x 7\n" +
+                    "출혈 지속 대미지 : n\n" +
+                    "질풍 자원 소모 : 4개\n" +
+                    "사거리 : 3.3m\n" +
+                    "범위 : 2m",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 227,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "하울링 게일",
+            subtitle = "#연타 #보조\n" +
+                    "거센 돌풍처럼 쉴새없이 퍼붓는 연속 공격.\n" +
+                    "제자리에서 버티고 서서 여러 번 검을 휘둘러 다수의 적에게 피해를 준다.\n" +
+                    "스킬을 사용하는 동안 이동할 수 없다.",
+            description = "연타 대미지 : n x 17\n" +
+                    "마무리 대미지 : n x 2\n" +
+                    "재사용 대기 시간 : 23초\n" +
+                    "범위 : 4.5m",
+            iconResId = R.drawable.dualblade4
+        ),
+        GameSkill(
+            id = 228,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "하울링 템페스트",
+            subtitle = "#연타 #보조\n" +
+                    "거센 돌풍처럼 쉴새없이 퍼붓는 연속 공격.\n" +
+                    "제자리에서 버티고 서서 여러 번 검을 휘둘러 다수의 적에게 피해를 준다.\n" +
+                    "스킬을 사용하는 동안 이동할 수 없으며 일정 시간 동안 추가타 확률과 급소 회피 확률이 증가한다.",
+            description = "연타 대미지 : n x 17\n" +
+                    "마무리 대미지 : n x 2\n" +
+                    "추가타 확률 : 15%\n" +
+                    "급속 회피 확률 : 30%\n" +
+                    "효과 지속 시간 : 60초\n" +
+                    "질풍 자원 소모 : 4개\n" +
+                    "범위 : 6.5m",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 229,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "글라이딩 퓨리",
+            subtitle = "#강타 #이동\n" +
+                    "재빠르게 파고들어 진영을 흩트리는 기습 공격.\n" +
+                    "강력한 돌진으로 적의 틈새를 파고들어 경로의 모든 적에게 피해를 주며 단숨에 이동한다.",
+            description = "대미지 : n x 2\n" +
+                    "재사용 대기 시간 : 18초\n" +
+                    "사거리 : 12m\n" +
+                    "범위 : 3.5m",
+            iconResId = R.drawable.dualblade5
+        ),
+        GameSkill(
+            id = 230,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "라이트닝 퓨리",
+            subtitle = "#강타 #이동\n" +
+                    "재빠르게 파고들어 진영을 흩트리는 기습 공격.\n" +
+                    "강력한 돌진으로 적의 틈새를 파고들어 경로의 모든 적에게 더 큰 피해를 주며 단숨에 이동한다.",
+            description = "대미지 : n x 2\n" +
+                    "질풍 자원 소모 : 4개\n" +
+                    "사거리 : 12m\n" +
+                    "범위 : 3.5m",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 231,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "파이널 히트",
+            subtitle = "#강타 #연타 #이동\n" +
+                    "빛과 같은 기세로 연격을 쏟아내는 극한의 검술.\n" +
+                    "한계를 초월한 육체로 빛처럼 쇄도하여 공격을 퍼부어 타겟에게 큰 피해를 준다.\n" +
+                    "타겟이 사라지면 주변의 가장 가까운 타겟을 찾아 공격을 잇는다.\n" +
+                    "-『무수한 검의 궤적은 결코 떨쳐낼 수 없다.』",
+            description = "연타 대미지 : n x 16\n" +
+                    "마무리 대미지 : n x 2\n" +
+                    "궁극기 비용 : 300\n" +
+                    "사거리 : 14m",
+            iconResId = R.drawable.dualblade6
+        ),
+        GameSkill(
+            id = 232,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "피어오르는 열망",
+            subtitle = "#패시브\n" +
+                    "더 빠르게, 더 강하게 몰아치고자 하는 투지.\n" +
+                    "궁극기를 제외한 듀얼블레이드의 스킬은 사용 시 질풍의 기운을 획득하고, 질풍의 기운이 4개가 되면 기운을 모두 소모해 강화 스킬을 사용한다.\n" +
+                    "또한 스킬 사용 시 일정 확률로 질풍의 기운을 추가로 생성한다.",
+            description = "추가 질풍 자원 생성 : 1칸\n" +
+                    "발동 확률 : 25%",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 233,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "재충전",
+            subtitle = "#패시브\n" +
+                    "숙련된 검술로 스킬을 자유자재로 활용하는 기술.\n" +
+                    "기본 공격 마다 무작위로 스킬 하나의 남은 재사용 대기 시간이 감소한다.\n" +
+                    "기본 공격의 위력에 따라 효과가 강화된다.",
+            description = "재사용 대기 시간 감소 : 0.5 - 1.5초\n",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 234,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "전투 숙련: 파멸",
+            subtitle = "#패시브\n" +
+                    "근거리에서 공격을 수행하는 숙련된 전투 기법.\n" +
+                    "기본 공격에 받는 피해가 감소하고, 적에게 주는 무방비 피해가 증가한다.",
+            description = "받는 기본 공격 대미지 감소 : 10%\n" +
+                    "무방비 대미지 증가 : 5%",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 235,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "활기",
+            subtitle = "#패시브\n" +
+                    "연이은 공세 속에서 힘을 끌어올리는 신체 능력.\n" +
+                    "연타 적중 시, 다음에 사용하는 강화 스킬과 궁극기의 피해량이 증가한다.",
+            description = "연타 시 대미지 증가 : 20%",
+            iconResId = R.drawable.dualbladep
+        ),
+        GameSkill(
+            id = 236,
+            jobGroup = "도적",
+            jobClass = "듀얼블레이드",
+            title = "바람 칼날",
+            subtitle = "#패시브\n" +
+                    "날쌔게 검을 휘둘러 바람같이 공격하는 검술.\n" +
+                    "일정 확률로 적을 한 번 더 베어 추가 피해를 주고 질풍의 기운을 추가로 생성한다.\n" +
+                    "기본 공격의 위력에 따라 효과가 강화된다.",
+            description = "기본 공격 추가 대미지 : 50%\n" +
+                    "추가 질풍 자원 생성 : 1칸\n" +
+                    "발동 확률 : 20%",
+            iconResId = R.drawable.dualbladep
+        ),
+
         )
 
     val runeList = listOf(
         GameRune(1, "장신구", "참격", "전사의 블레이드 스매시 스킬에 변화를 준다.\n" ,
-                "항상 주변 원형 범위의 적을 빠르게 공격하며, 추가로 지속 피해: 화상 상태로 만든다.", R.drawable.ic_launcher_background),
-
+                "항상 주변 원형 범위의 적을 빠르게 공격하며, 추가로 지속 피해: 화상 상태로 만든다.", R.drawable.rune
+        ),
     GameRune(2, "장신구", "돌진", "전사의 방패 치기 스킬에 변화를 준다.\n" ,
-            "짧은 거리를 돌진해 적을 공격한다. 브레이크된 상태일 때도 사용할 수 있다.", R.drawable.ic_launcher_background),
+            "짧은 거리를 돌진해 적을 공격한다. 브레이크된 상태일 때도 사용할 수 있다.", R.drawable.rune),
 
     GameRune(3, "장신구", "포효", "전사의 전장의 함성 스킬에 변화를 준다.\n" ,
-            "투지가 최고조에 이르면, 주변의 모든 적을 넘어뜨리는 매우 강력한 충격파를 일으킨다.", R.drawable.ic_launcher_background),
+            "투지가 최고조에 이르면, 주변의 모든 적을 넘어뜨리는 매우 강력한 충격파를 일으킨다.", R.drawable.rune),
 
     GameRune(4, "장신구", "패기", "전사의 전장의 함성 스킬에 변화를 준다.\n" ,
-            "함성 피해가 대폭 증가하고, 스킬 사용 시 투지 상승 효과가 사라진다.", R.drawable.ic_launcher_background),
+            "함성 피해가 대폭 증가하고, 스킬 사용 시 투지 상승 효과가 사라진다.", R.drawable.rune),
 
     GameRune(5, "장신구", "맹공", "전사의 연속 베기 스킬에 변화를 준다.\n" ,
-            "가드 상태일 경우, 적에게 맹렬한 연속 공격을 가하고 잠시 동안 공격력을 증가시키는 제압 스킬로 변화한다.", R.drawable.ic_launcher_background),
+            "가드 상태일 경우, 적에게 맹렬한 연속 공격을 가하고 잠시 동안 공격력을 증가시키는 제압 스킬로 변화한다.", R.drawable.rune),
 
     GameRune(6, "장신구", "돌격", "전사의 찌르기 스킬을 꿰뚫기로 교체한다.\n" ,
-            "온 힘을 검 끝에 모아, 타겟에게 위력적인 돌진 공격을 가한다.", R.drawable.ic_launcher_background),
-    )
+            "온 힘을 검 끝에 모아, 타겟에게 위력적인 돌진 공격을 가한다.", R.drawable.rune),
+        GameRune(7, "장신구", "회전", "대검전사의 회전 베기 스킬에 변화를 준다.\n" ,
+            "회전 횟수를 대폭 줄여 빠르게 적을 벤다. 사용 시간과 재사용 대기 시간이 크게 감소한다.\n", R.drawable.rune),
+        GameRune(8, "장신구", "분노", "대검전사의 발구르기와 어깨 치기 스킬에 변화를 준다.\n" ,
+            "어깨 치기 사용 시, 전투 템포가 상승한다." +
+                    "발구르기의 경우, 브레이크 피해가 추가된다.", R.drawable.rune),
+        GameRune(9, "장신구", "회심", "대검전사의 대검술 스킬에 변화를 준다.\n" ,
+            "대검술 사용 시, 차징 단계에 따라 증가된 치명타 확률을 얻고, 적이 일정 체력 이하일 경우에는 치명타 확률이 두 배로 증가한다.\n", R.drawable.rune),
+        GameRune(10, "장신구", "절단", "대검전사의 회전 베기 스킬에 변화를 준다.\n" ,
+            "스킬 사용 시, 마지막으로 벤 적들에게 지속 피해: 출혈을 준다.", R.drawable.rune),
+        GameRune(11, "장신구", "반격", "대검전사의 라이징 스매시 스킬에 변화를 준다.\n" ,
+            "스킬 차징이 가능해져 더욱 큰 피해를 준다.\n" +
+                    "차징 중, 피해를 받으면 차징 단계가 최대로 오르고, 브레이크 피해를 받았을 경우에는 더 강한 브레이크 피해로 반격한다.\n" +
+                    "또한 두 배 증가된 강화 효과: 불굴을 얻는다.", R.drawable.rune),
+        GameRune(12, "장신구", "탄력", "대검전사의 가르기 스킬에 변화를 준다.\n" ,
+            "스킬 차징이 가능해져 더욱 큰 피해를 준다. 가르기 사용 시, 차징 단계에 따라 탄력 효과를 얻는다.\n" +
+                    "가르기를 제외한 차징스킬을 사용 시, 탄력 효과를 소모해 차징 단계가 증가한다.", R.drawable.rune),
+        GameRune( 13,"장신구","압박","검술사의 칼집 치기 스킬에 변화를 준다.\n","칼집 치기 혹은 비검: 칼집 치기 스킬의 공격이 적 주변에 영향을 주는 범위 피해로 강화된다.",R.drawable.rune),
+        GameRune( 14,"장신구","무희","검술사의 질풍 베기 스킬에 변화를 준다.\n","질풍 베기와 비검: 질풍 베기를 사용할 때마다 집중 상태 여부에 따라 스킬 사용 속도가 더욱 빨라진다.\n",R.drawable.rune),
+        GameRune( 15,"장신구","맹렬","검술사의 간파 스킬에 변화를 준다.\n","간파에 성공할 경우, 일정 시간 동안 검술사가 적에게 추가 피해를 준다.\n",R.drawable.rune),
+        GameRune( 16,"장신구","피바람","검술사의 질풍 베기 스킬에 변화를 준다.\n","스킬 사용 시, 지속 피해: 출혈을 추가로 준다.\n",R.drawable.rune),
+        GameRune( 17,"장신구","관통","검술사의 강철 쐐기 스킬에 변화를 준다.\n","강철 쐐기 혹은 비검: 강철 쐐기를 1회 사용 시, 범위 피해를 주는 쾌검을 사용할 수 있다.\n",R.drawable.rune),
+        GameRune( 18,"장신구","낙화","검술사의 비검 스킬에 변화를 준다.\n","각기 다른 비검 스킬을 모두 사용하였을 경우, 피해량이 높은 비검: 낙화를 사용할 수 있다.\n",R.drawable.rune),
+        GameRune( 19,"장신구","몰아침","궁수의 매그넘 샷 스킬에 변화를 준다.\n","모든 바람을 소모하여 매그넘 샷 스킬의 피해량을 증가시킨다.\n",R.drawable.rune),
+        GameRune( 20,"장신구","날렵함","궁수의 사이드 스텝 스킬에 변화를 준다.\n","사이드 스텝 스킬 사용 시, 급소 회피 및 이동 속도 증가 효과를 얻는다.\n",R.drawable.rune),
+        GameRune( 21,"장신구","탈출","궁수의 이스케이프 스텝 스킬에 변화를 준다.\n","브레이크 된 상태에서도 이스케이프 스텝을 사용 가능하며, 자신에게 걸린 브레이크 상태를 해제한다.\n",R.drawable.rune),
+        GameRune( 22,"장신구","재빠름","궁수의 매그넘 샷 스킬에 변화를 준다.\n","질주하는 바람 발동 유무와 상관없이, 캐스팅 시간이 줄어든다.또한 사용 가능 횟수가 1회 추가되고, 재사용 대기 시간이 감소한다.\n",R.drawable.rune),
+        GameRune( 23,"장신구","치명적","궁수의 애로우 리볼버 스킬에 변화를 준다.\n","질주하는 바람 상태에서 운용 시, 치명적인 사격 스킬을 사용할 수 있다.\n",R.drawable.rune),
+        GameRune( 24,"장신구","매","궁수의 호크 샷 스킬에 변화를 준다.\n","호크 샷의 약화 효과가 부여된 타겟에게 바람결의 도탄 효과가 발생하였으나 주변에 다른 적이 없는 경우, 도탄된 화살이 되돌아와 타겟을 재차 공격한다.\n",R.drawable.rune),
+        GameRune( 25,"장신구","감전","석궁사수의 쇼크 익스플로전 스킬에 변화를 준다.\n","번개 속성이 주입된 볼트로 적에게 지속 피해: 감전을 주고, 일정 시간 치명타 확률이 증가한다.\n",R.drawable.rune),
+        GameRune( 26,"장신구","방해","석궁사수의 슬라이딩 스텝 스킬에 변화를 준다.\n","전방의 넓은 범위로 볼트를 퍼트리듯 발사하여 다수의 적에게 더 큰 피해를 준다.\n",R.drawable.rune),
+        GameRune( 27,"장신구","전류","석궁사수의 스프레딩 볼트 스킬에 변화를 준다.\n","일정 확률로 과충전되어 강화 볼트 탄창의 소모 없이 주변의 적들에게 지속 피해: 감전을 주는 썬더 스프레딩 볼트\u200B\u200B를 사용할 수 있다.\n",R.drawable.rune),
+        GameRune( 28,"장신구","반전","석궁사수의 슬라이딩 스텝 스킬에 변화를 준다.\n","앞으로 미끄러지며 강화 볼트 탄창을 한 번에 2개 장전한다.\n",R.drawable.rune),
+        GameRune( 29,"장신구","화약","석궁사수의 버스터 샷 스킬에 변화를 준다.\n","마운팅 쇼크가 공격이 적중한 최대 5명의 적에게 약화 효과: 분진을 부여한다.\n" +
+                "약화 효과: 분진을 가진 적이 화염 속성 공격을 받으면 폭발을 일으켜 주변에 범위 피해를 준다.\n",R.drawable.rune),
+        GameRune( 30,"장신구","연쇄","석궁사수의 거스팅 볼트 스킬에 변화를 준다.\n","거스팅 볼트에 번개 속성이 적용되며, 치명타 적중 시 연쇄적인 번개 줄기를 방출하여 타겟과 근접한 적들에게도 피해를 준다.\n",R.drawable.rune),
+        GameRune( 31,"장신구","파쇄","장궁병의 쉘 브레이커 스킬에 변화를 준다.\n","쉘 브레이커에 맞은 타겟 주변으로 충격파가 발생하여 범위 피해를 준다.\n" +
+                "범위 피해에 맞은 적의 받는 피해가 증가한다.\n",R.drawable.rune),
+        GameRune( 32,"장신구","끈질김","장궁병의 윙 스큐어 스킬에 변화를 준다.\n","투창 지원 공격이 타겟을 중심으로 3번에 걸쳐 떨어진다.\n" +
+                "윙 스큐어 스킬의 피해와 재사용 대기 시간이 증가한다.\n",R.drawable.rune),
+        GameRune( 33,"장신구","무너짐","장궁병의 크래시 샷 스킬에 변화를 준다.\n","스킬 피해량과 약화 효과: 쇠약의 지속 시간이 증가하며, 카운터로 적중 시 대상을 브레이크시킨다.\n",R.drawable.rune),
+        GameRune( 34,"장신구","내상","장궁병의 쉘 브레이커 스킬에 변화를 준다.\n","스킬 공격 시 지속 피해: 출혈을 주는 약화 효과: 내상 효과가 추가된다.\n",R.drawable.rune),
+        GameRune( 35,"장신구","초음파","장궁병의 하트 시커 스킬에 변화를 준다.\n","차지 단계마다 타겟 방향으로 반달형 충격파를 발사한다.\n" +
+                "반달형 충격파는 피해를 주며 뒤로 밀쳐낸다.\n",R.drawable.rune),
+        GameRune( 36,"장신구","집중","장궁병의 플레임 애로우 스킬에 변화를 준다.\n","스킬이 차징 스킬로 변경되며, 차징하는 동안 타겟을 중심으로 범위 타격이 포커싱된다.\n",R.drawable.rune),
+        GameRune( 37,"장신구","낙뢰","마법사의 라이트닝 스킬에 변화를 준다.\n","연쇄적인 번개 줄기에 피격된 적들의 머리 위로 벼락을 떨어뜨려 주변의 적들에게 범위 피해와 함께 지속 피해: 감전을 준다.\n" +
+                "벼락은 동일한 적에게 중복으로 피해를 줄 수 있다.",R.drawable.rune),
+        GameRune( 38,"장신구","산사태","마법사의 텔레키네시스 스킬에 변화를 준다.\n","바위 파편 무더기를 몰아치듯 타겟에게 발사하여 피해를 주며, 일정 시간 동안 적에게 주는 원소 피해가 증가한다.\n",R.drawable.rune),
+        GameRune( 39,"장신구","깜빡임","마법사의 마나 스톰 스킬에 변화를 준다.\n","타겟의 위치로 순간 이동해 거센 마나 폭풍으로 주변 적들에게 범위 피해를 주는 동시에 일정량의 마나를 즉시 회복하고, 마나 실드를 얻는다.\n" +
+                "스킬 재사용 시, 마나 실드의 폭발을 일으켜 주변 적들에게 범위 피해를 주고 후방으로 즉시 이동한다.",R.drawable.rune),
+        GameRune( 40,"장신구","증폭","마법사의 마나 스톰 스킬에 변화를 준다.\n","엘리멘탈 하모니가 일정시간 발동하며 엘리멘탈 지속 피해량이 증가한다.\n",R.drawable.rune),
+        GameRune( 41,"장신구","운석","마법사의 파이어볼 스킬에 변화를 준다","마법사의 파이어 볼 스킬을 메테오 스트라이크로 교체한다.\n",R.drawable.rune),
+        GameRune( 42,"장신구","서리가시","마법사의 아이스 대거 스킬에 변화를 준다.","회전하는 열두 개의 얼음 파편을 소환하여 주변의 적들을 날카로운 얼음날로 휩쓸고, 타겟에게 여섯 개의 파편을 잇달아 발사하여 피해를 준다.\n" +
+                "발사 후, 재발동되어 남은 여섯 개의 얼음 파편이 주변 적의 공격과 파편 발사를 한 차례 반복한다.",R.drawable.rune),
+        GameRune( 43,"장신구","북풍","빙결술사의 글래시어 커터 스킬에 변화를 준다.\n","글래시어 커터의 스킬 사용 속도와 사용 가능 횟수가 증가하고 재사용 대기 시간이 감소한다.\n",R.drawable.rune),
+        GameRune( 44,"장신구","고드름","빙결술사의 아이스 스파이크 스킬에 변화를 준다.\n","체력이 일정 이하가 되면 자원 소모와 재사용 대기 시간 없이 아이스 스파이크를 자동 발동시킨다.\n",R.drawable.rune),
+        GameRune( 45,"장신구","겨울","빙결술사의 프리징 필드 스킬에 변화를 준다.\n","일정시간 동안 매초마다 피해량이 증가한다.\n",R.drawable.rune),
+        GameRune( 46,"장신구","파편","빙결술사의 아이스 스파이크 스킬에 변화를 준다.\n","아이스 스파이크가 활성화된 상태에서 피격될 때마다 반격 피해와 효과 종료 시의 폭발 피해가 증가한다.\n",R.drawable.rune),
+        GameRune( 47,"장신구","빙검","빙결술사의 크리스탈 엣지 스킬에 변화를 준다.\n","서리를 일정량 생성할 때마다 서리검을 획득하며 서리검을 일정 이상 모을 시 크리스탈 소드로 강화된다.\n",R.drawable.rune),
+        GameRune( 48,"장신구","오로라","빙결술사의 프로즌 오브 스킬을 프로즌 글로브로 교체한다.\n","얼어붙은 구체를 폭발시켜 범위 피해를 주고, 얼음 장막을 만들어 아군을 보호한다.\n",R.drawable.rune),
+        GameRune( 49,"장신구","불기둥","화염술사의 파이어 스톰 스킬에 변화를 준다.\n","스킬이 활성화되는 즉시, 폭발 피해를 주며 스킬을 준비 중인 적은 공중으로 높이 떠오른다.\n" +
+                "위력이 감소하는 대신, 스킬 연속 사용 횟수가 증가하고 재사용 대기 시간이 감소한다.\n",R.drawable.rune),
+        GameRune( 50,"장신구","화력","화염술사의 플레임 캐논 스킬에 변화를 준다.\n","열기가 50 이상일 경우, 5의 열기를 소모해 강화된 형태로 사용한다.\n",R.drawable.rune),
+        GameRune( 51,"장신구","분출","화염술사의 플래시오버 스킬에 변화를 준다.\n","스킬이 활성화된 동안, 30의 열기를 소모할 때마다 스킬의 지속 시간이 1초씩 증가하며 화염 파동이 발생한다.\n",R.drawable.rune),
+        GameRune( 52,"장신구","열풍","화염술사의 파이어 스톰 스킬에 변화를 준다.\n","불의 소용돌이 지속 시간과 피해가 대폭 증가한다.\n",R.drawable.rune),
+        GameRune( 53,"장신구","불씨","화염술사의 래피드 파이어 스킬에 변화를 준다.\n","다수의 화염구를 동시에 발사하여 전방의 모든 적에게 피해를 준다.\n" +
+                "재사용 대기시간이 늘어나지만, 공격 범위와 열기 생성량이 증가한다.\n",R.drawable.rune),
+        GameRune( 54,"장신구","잿더미","화염술사의 익스플로전 스킬에 변화를준다\n","화염술사의 익스플로전 스킬을 크로스 파이어로 교체한다.\n주변의 불길을 곧장 폭발시키지 않고, 끌어모아 화염구의 형태로 적에게 집중 난사한다.\n",R.drawable.rune),
+        GameRune( 55,"장신구","서약","힐러의 라이프 링크 스킬에 변화를 준다.\n","연결된 대상의 적, 아군 여부에 따라 지속 회복 효과를 주고 이동 속도를 증가시키거나, 지속 피해를 주고 이동 속도를 감소시킨다.\n" +
+                "추가로, 아군과 연결 시 발생하는 빛의 파동의 위력이 증가한다.\n",R.drawable.rune),
+        GameRune( 56,"장신구","고동침","힐러의 생명의 고동 스킬에 변화를 준다.\n","정신 집중 시간과 공격 주기가 감소한다.\n",R.drawable.rune),
+        GameRune( 57,"장신구","감쌈","힐러의 프로텍션 스킬에 변화를 준다.\n","잠시 동안 받는 피해가 추가로 감소한다.\n",R.drawable.rune),
+        GameRune( 58,"장신구","물결","힐러의 생명의 고동 스킬에 변화를 준다.\n","최대 스택 수가 증가하며, 더 많은 아군과 적 타겟에게 각기 치유나 피해를 준다.\n" +
+                "또한 생명의 고동을 통해 라이프 링크의 효과를 전이 시, 주변 아군에게 부여하는 강화 효과의 위력이 상승한다.\n",R.drawable.rune),
+        GameRune( 59,"장신구","억압","힐러의 팬텀 페인 스킬에 변화를 준다.\n","생명력을 응축한 마력 구체가 적과 아군 사이를 이동하며 여러 번에 걸쳐 폭발을 일으킨다.\n",R.drawable.rune),
+        GameRune( 60,"장신구","빛무리","힐러의 서먼 루미너스 스킬에 변화를 준다.\n","힐러와 라이프 링크로 연결된 타겟의 위치에 일정 시간 동안 전투를 지원하는 빛의 결정체를 소환한다.\n",R.drawable.rune),
+        GameRune( 61,"장신구","결속","사제의 서먼 링커 스킬에 변화를 준다.\n","링커가 연결대상에 따른 회복과 피해를 주면 신성력을 일부 회복한다.\n" +
+                "서먼 링커가 아닌 다른 스킬을 사용할 경우, 일정 확률로 링커가 재발동된다.\n",R.drawable.rune),
+        GameRune( 62,"장신구","수레바퀴","사제의 켈틱 크로스 스킬에 변화를 준다.\n","켈틱 크로스의 공격 성공 시, 심볼의 이동 속도가 느려지며 지속 시간이 증가한다.\n",R.drawable.rune),
+        GameRune( 63,"장신구","희생","사제의 생츄어리 스킬에 변화를 준다.\n","두 배의 체력을 소모하여, 두 배로 강화된 성역을 생성한다.\n",R.drawable.rune),
+        GameRune( 64,"장신구","성전","사제의 생츄어리 스킬에 변화를 준다.\n","성역 안에 있는 동안 사제의 모든 스킬 위력이 증가한다.\n",R.drawable.rune),
+        GameRune( 65,"장신구","날개","사제의 디바인 윙 스킬을 헤븐즈 도어로 교체한다.\n","새 형상의 빛무리를 주기적으로 퍼트리는 마법진을 소환한다.\n" +
+                "대상에 따라 회복과 피해를 주고, 신성력을 소모하면 회복량이 증가한다.\n",R.drawable.rune),
+        GameRune( 66,"장신구","빛줄기","사제의 홀리 스피어 스킬을 피어싱 라이트로 교체한다.\n","작은 빛의 창을 쏘아 직선상의 모든 적을 꿰뚫는다.\n",R.drawable.rune),
+        GameRune( 67,"장신구","인과","수도사의 쇄도 스킬에 변화를 준다.\n","활성화된 진언이 많을수록 연타횟수가 증가한다.\n",R.drawable.rune),
+        GameRune( 68,"장신구","정화","수도사의 수호진 스킬에 변화를 준다.\n","보호막을 만들 때, 아군의 속성 지속 피해를 모두 해제한다.\n",R.drawable.rune),
+        GameRune( 69,"장신구","광휘","수도사의 화신 에 변화를 준다.\n","재사용 대기 시간과 지속 시간이 대폭 감소하고, 화신이 활성화될 때 수도사로부터 강렬한 빛이 뿜어져 나와 주변의 모든 적에게 피해를 준다.\n",R.drawable.rune),
+        GameRune( 70,"장신구","축성","수도사의 화신 에 변화를 준다.\n","화신의 효과가 지속되는 동안 회복력이 증가한다.\n",R.drawable.rune),
+        GameRune( 71,"장신구","응보","수도사의 벽력타 스킬에 변화를 준다.\n","힘, 빛, 정화의 진언을 모두 활성화하면 10초간 벽력장을 1회 사용할 수 있다.\n",R.drawable.rune),
+        GameRune( 72,"장신구","업화","수도사의 치유 스킬에 변화를 준다","수도사의 치유 스킬을 업화로 교체하여 데미지는 단일대상, 회복은 대상의 주변 아군에게 광역으로 주게 된다.",R.drawable.rune),
+        GameRune( 73,"장신구","급습","음유시인의 스트링 샷 스킬에 변화를 준다.\n","연주 스킬에 이어서 사용 시, 더 신속히 발사한다.\n",R.drawable.rune),
+        GameRune( 74,"장신구","즉흥","음유시인의 바즈 테일 스킬에 변화를 준다.\n","떠오르는 악상이 없으면, 불협화음을 내는 변칙적인 연주로 주변 모든 적에게 강력한 피해를 준다.\n",R.drawable.rune),
+        GameRune( 75,"장신구","기만","음유시인의 라이징 윈드밀 스킬을 서프라이즈 샷으로 교체한다.\n","다운된 상태일 때, 즉시 기상하며 주변 적들에게 특수탄을 발사해 공격하고 약화시킨다.\n",R.drawable.rune),
+        GameRune( 76,"장신구","재치","음유시인의 죽은 척 하기 스킬을 맞은 척 하기로 교체한다.\n","뒤로 물러나며 적을 기습 공격하고, 악상: 반격을 떠올린다.\n",R.drawable.rune),
+        GameRune( 77,"장신구","조롱","음유시인의 멜로디 쇼크 스킬에 변화를 준다.\n","적을 브레이크 시키면 승전의 연주를 하는 승리의 세레모니를 1회에 한해 사용할 수 있다.\n",R.drawable.rune),
+        GameRune( 78,"장신구","화음","음유시인의 트리플 스트로크 스킬에 변화를 준다.\n","떠올린 악상에 따라 셋 중 한 곡을 연주해 추가 효과를 얻는다.\n",R.drawable.rune),
+        GameRune( 79,"장신구","정열","댄서의 윈드밀 스킬에 변화를 준다.\n","윈드밀 사용 시 적에게 지속 피해를 주며 해당 효과는 정열 타입의 스킬로 지속 시간이 연장된다.\n",R.drawable.rune),
+        GameRune( 80,"장신구","다가옴","댄서의 프론트 스텝 스킬에 변화를 준다.\n","프론트 스텝으로 이동한 거리에 비례하여 재사용 대기 시간이 감소한다.\n",R.drawable.rune),
+        GameRune( 81,"장신구","산뜻함","댄서의 피루엣 스킬에 변화를 준다.\n","피루엣으로 강화된 원거리 공격 피해량이 일정 횟수 동안 증가하며 해당 효과를 보유하는 동안 공격 속도가 빨라진다.\n",R.drawable.rune),
+        GameRune( 82,"장신구","간결함","댄서의 피루엣 스킬에 변화를 준다.\n","피루엣 사용 이후, 다음 스킬이 주는 피해가 증가한다.\n",R.drawable.rune),
+        GameRune( 83,"장신구","나비","댄서의 내추럴 턴 스킬에 변화를 준다.\n","내추럴 턴 사용 시, 적을 추적하는 3마리의 나비가 나타나 날아간다.\n",R.drawable.rune),
+        GameRune( 84,"장신구","갈채","댄서의 애드리브 스킬에 변화를 준다.\n","애드리브 범위 내의 아군에게 추가타 효과를 부여한다.\n",R.drawable.rune),
+        GameRune( 85,"장신구","공명","악사의 연주: 아르페지오 스킬에 변화를 준다.\n","약화 효과: 현혹의 지속 피해가 최대 8번까지 중첩된다.\n",R.drawable.rune),
+        GameRune( 86,"장신구","박애","악사의 연주: 세레나데 스킬에 변화를 준다.\n","전방의 모든 적들을 매혹한다. 크레센도로 강화 시, 위력이 대폭 증가한다.\n",R.drawable.rune),
+        GameRune( 87,"장신구","이중주","악사의 기교: 크레센도 스킬에 변화를 준다.\n","재사용 대기 시간이 소폭 증가하는 대신, 최대 스택 수가 1 증가한다.\n",R.drawable.rune),
+        GameRune( 88,"장신구","속주","악사의 기교: 크레센도 스킬에 변화를 준다.\n","기교: 크레센도 사용 시, 연주 스킬들의 재사용 대기시간이 감소한다.\n",R.drawable.rune),
+        GameRune( 89,"장신구","흉성","악사의 연주: 별의소나타 스킬에 변화를 준다.","악사의 연주: 별의 소나타 스킬을 연주: 혼돈의 야상곡으로 교체한다.\n",R.drawable.rune),
+        GameRune( 90,"장신구","종장","악사의 기교: 클라이맥스 스킬에 변화를 준다.\n","단일 타겟 스킬로 변경되며, 타겟에게 걸린 약화 효과가 많을수록 피해량이 증가한다.\n",R.drawable.rune),
+        GameRune( 91,"장신구","투척","도적의 쓰로잉 봄 스킬에 변화를 준다.\n","도적 스킬이 치명타로 적용될 경우 쓰로잉 봄의 재사용 대기 시간이 감소한다.\n",R.drawable.rune),
+        GameRune( 92,"장신구","교활함","도적의 스크류 대거 스킬에 변화를 준다.\n","스크류 대거 사용 시, 타겟의 체력이 일정 비율 이상일 경우 추가 피해가 적용된다.\n",R.drawable.rune),
+        GameRune( 93,"장신구","치밀함","도적의 기습 스킬에 변화를 준다.\n","오버 차지 단계에 따라 기습 스킬에 적용되는 치명타 확률이 증가한다.\n",R.drawable.rune),
+        GameRune( 94,"장신구","독성","도적의 쓰로잉 봄 스킬에 변화를 준다.\n","폭발 속성이 독 속성으로 변경되고, 지속 피해: 중독 피해를 준다.\n",R.drawable.rune),
+        GameRune( 95,"장신구","독무","도적의 포이즌 트랩 스킬에 변화를 준다.\n","독 안개는 일정 시간 동안 나를 따라다니며, 범위 내의 적에게 지속 피해: 중독을 준다.\n" +
+                "독 지대 내에서는 자신의 급소 회피가 증가한다.\n",R.drawable.rune),
+        GameRune( 96,"장신구","땅거미","도적의 은신 스킬에 변화를 준다.\n","은신 스킬 사용 시, 은신 스킬을 제외한 스킬들의 재사용 대기 시간이 감소한다.\n",R.drawable.rune),
+        GameRune( 97,"장신구","도약","격투가의 스톰프 킥 스킬에 변화를 준다.\n","착지 시, 공격 범위가 커지며 스킬의 이동 거리에 비례해 거리가 멀수록 적에게 더 큰 피해를 준다.\n",R.drawable.rune),
+        GameRune( 98,"장신구","순발력","격투가의 백 스탭 스킬에 변화를 준다.\n","백 스텝으로 적에게 피해를 주면, 적의 이동 속도가 느려진다.\n",R.drawable.rune),
+        GameRune( 99,"장신구","열혈","격투가의 섬머솔트 스킬에 변화를 준다.\n","발에 실은 화염의 기운을 검날의 형태로 발산해 전방의 적에게 범위 피해를 준다.\n",R.drawable.rune),
+        GameRune( 100,"장신구","전진","격투가의 스러스트 킥 스킬에 변화를 준다.\n","돌진 스킬로 변경되며 마지막 연속기 스킬, 콤보 스킬 피해량이 증가한다.\n",R.drawable.rune),
+        GameRune( 101,"장신구","충돌","격투가의 차징 피스트 스킬에 변화를 준다.\n","타격한 적을 멀리 날리고, 날아간 적이 충돌한 지점 주변의 적들에게 범위 피해를 주고 밀쳐낸다.\n",R.drawable.rune),
+        GameRune( 102,"장신구","격파","격투가의 버스트 펀치 스킬에 변화를 준다.\n","버스트 펀치 적중 시, 주변에 또 다른 적이 없다면 추가타를 준다.\n",R.drawable.rune),
+        GameRune( 103,"장신구","열상","듀얼블레이드의 스플릿 슬래시, 스플릿 다운 스킬에 변화를 준다.\n","공격할 때 검기를 날려 전방에 범위 피해를 준다.\n" +
+                "스킬 재사용 대기 시간이 2초 감소한다.\n",R.drawable.rune),
+        GameRune( 104,"장신구","보름달","듀얼블레이드의 더블 크레센트, 라이징 크레센트 스킬에 변화를 준다.\n","브레이크된 적에게 사용 시 더블 크레센트 재사용 대기 시간이 완전히 감소한다.\n" +
+                "재사용 대기 시간 감소 효과는 일정 시간마다 한 번만 발동한다.\n",R.drawable.rune),
+        GameRune( 105,"장신구","속행","듀얼블레이드의 하울링 게일, 하울링 템페스트 스킬에 변화를 준다.\n","스킬 사용 중에 궁극기를 제외한 액티브 스킬들의 재사용 대기 시간 회복 속도가 빨라진다.\n",R.drawable.rune),
+        GameRune( 106,"장신구","강화","듀얼블레이드의 하울링 게일 스킬에 변화를 준다.\n","강화 스킬 사용 시 하울링 게일, 하울링 템페스트 스킬 피해량이 증가한다.\n",R.drawable.rune),
+        GameRune( 107,"장신구","회오리","듀얼블레이드의 스크류 러시 스킬에 변화를 준다.","듀얼블레이드의 스크류 러시 스킬을 3960 허리케인으로 교체한다.\n",R.drawable.rune),
+        GameRune( 108,"장신구","질주","듀얼블레이드의 글라이딩 퓨리, 라이트닝 퓨리 스킬에 변화를 준다.\n","라이트닝 퓨리 사용 시 글라이딩 퓨리의 재사용 대기 시간을 초기화하며, 일정 확률로 질풍 자원을 1개 추가로 획득한다.\n",R.drawable.rune),
+        )
 //커밋
 }
