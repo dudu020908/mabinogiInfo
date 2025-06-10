@@ -1,5 +1,6 @@
 package com.example.mabinogiinfoapp
 
+
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Intent
@@ -14,7 +15,7 @@ import com.example.mabinogiinfoapp.ui.EquipmentCategoryActivity
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 
-
+// 해당 앱의 모든 이미지 출처는 넥슨 - 마비노기 모바일에 있습니다. https://mabinogimobile.nexon.com/Media/Image
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         createNotificationChannel()
         requestNotificationPermission()
+        checkExactAlarmPermission()
 
         setSupportActionBar(binding.toolbar)
         drawerToggle = ActionBarDrawerToggle(this, binding.drawerLayout, binding.toolbar, R.string.open, R.string.close)
@@ -62,7 +64,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, EquipmentCategoryActivity::class.java))
         }
 
-
     }
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -95,5 +96,16 @@ class MainActivity : AppCompatActivity() {
         val statusItem = binding.navView.menu.findItem(R.id.nav_alarm_status)
         val isOn = AlarmHelper.isAlarmSet(this)
         statusItem.title = if (isOn) "알람 상태: ON" else "알람 상태: OFF"
+    }
+    private fun checkExactAlarmPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            val alarmManager = getSystemService(ALARM_SERVICE) as android.app.AlarmManager
+            if (!alarmManager.canScheduleExactAlarms()) {
+                val intent = Intent(android.provider.Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM).apply {
+                    data = android.net.Uri.parse("package:$packageName")
+                }
+                startActivity(intent)
+            }
+        }
     }
 }

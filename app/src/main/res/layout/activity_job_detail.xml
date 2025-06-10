@@ -9,7 +9,9 @@
         android:orientation="vertical"
         android:padding="16dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:backgroundTint="#cccccc"
+        >
 
         <!-- 직업명 -->
         <TextView
@@ -40,7 +42,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"/>
         <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-
+            <TextView android:text="장신구" android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipAccessoryGroup"
+                app:chipSpacing="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
             <TextView android:text="무기" android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -57,15 +67,6 @@
                 android:layout_marginTop="8dp"/>
             <com.google.android.material.chip.ChipGroup
                 android:id="@+id/chipArmorGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <TextView android:text="엠블럼" android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"/>
-            <com.google.android.material.chip.ChipGroup
-                android:id="@+id/chipEmblemGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>

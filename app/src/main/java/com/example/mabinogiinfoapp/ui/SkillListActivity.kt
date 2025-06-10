@@ -26,15 +26,15 @@ class SkillListActivity : AppCompatActivity() {
         binding.txtSkillTitle.text = "$jobGroup 스킬 목록"
 
         val adapter = GameInfoAdapter(
-            filteredSkills.map { it.toGameInfo() },
             onItemClick = { selected ->
                 val intent = Intent(this, DetailActivity::class.java)
                 intent.putExtra("area", "info")
                 intent.putExtra("info", selected)
                 startActivity(intent)
             },
-            showDescription = false // 설명 숨김
+            showDescription = false
         )
+        adapter.updateList(filteredSkills.map { it.toGameInfo() })
         binding.recyclerSkillList.layoutManager = LinearLayoutManager(this)
         binding.recyclerSkillList.adapter = adapter
 

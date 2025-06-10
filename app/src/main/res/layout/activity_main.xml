@@ -76,7 +76,6 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-
     <!-- 드로어 메뉴 -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navView"
@@ -86,3 +85,4 @@
         android:fitsSystemWindows="true"
         app:menu="@menu/menu_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>
+

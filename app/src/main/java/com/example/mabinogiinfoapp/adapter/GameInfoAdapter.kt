@@ -8,25 +8,32 @@ import com.example.mabinogiinfoapp.data.GameInfo
 import com.example.mabinogiinfoapp.databinding.ItemGameInfoBinding
 
 class GameInfoAdapter(
-    private val items: List<GameInfo>,
     private val onItemClick: (GameInfo) -> Unit,
-    private val showDescription: Boolean = true  // ← 설명 출력 여부 제어
+    private val showDescription: Boolean = true
 ) : RecyclerView.Adapter<GameInfoAdapter.ViewHolder>() {
+
+    private var displayedItems: List<GameInfo> = emptyList()
+
+    fun updateList(newList: List<GameInfo>) {
+        displayedItems = newList
+        notifyDataSetChanged()
+    }
 
     inner class ViewHolder(private val binding: ItemGameInfoBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: GameInfo) {
             binding.txtTitle.text = item.title
+
             if (showDescription) {
                 binding.txtSubTitle.text = item.subtitle
                 binding.txtSubTitle.visibility = View.VISIBLE
+
                 binding.txtDescription.text = item.description
                 binding.txtDescription.visibility = View.VISIBLE
             } else {
-                binding.txtDescription.visibility = View.GONE
-
                 binding.txtSubTitle.visibility = View.GONE
+                binding.txtDescription.visibility = View.GONE
             }
 
             binding.imgIcon.setImageResource(item.iconResId)
@@ -44,9 +51,9 @@ class GameInfoAdapter(
         return ViewHolder(binding)
     }
 
-    override fun getItemCount(): Int = items.size
+    override fun getItemCount(): Int = displayedItems.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(items[position])
+        holder.bind(displayedItems[position])
     }
 }

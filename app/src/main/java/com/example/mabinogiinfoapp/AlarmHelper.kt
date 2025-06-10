@@ -4,9 +4,8 @@ import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import com.example.mabinogiinfoapp.receiver.AlarmReceiver
-import android.provider.Settings
+import android.widget.Toast
 import java.util.*
 
 object AlarmHelper {
@@ -57,22 +56,14 @@ object AlarmHelper {
             .putBoolean(KEY_ALARM_SET, false)
             .apply()
     }
+
     fun isAlarmSet(context: Context): Boolean {
         return context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
             .getBoolean(KEY_ALARM_SET, false)
     }
-    //테스팅용 코드
-    fun setTestAlarm(context: Context) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
-            if (!alarmManager.canScheduleExactAlarms()) {
-                val intent = Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
-                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                context.startActivity(intent)
-                return
-            }
-        }
 
+    //테스팅 알람 코드
+    fun setTestAlarm(context: Context) {
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val intent = Intent(context, AlarmReceiver::class.java)
         val pendingIntent = PendingIntent.getBroadcast(
@@ -80,11 +71,16 @@ object AlarmHelper {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        val triggerAtMillis = System.currentTimeMillis() + 10_000
-        alarmManager.setExactAndAllowWhileIdle(
-            AlarmManager.RTC_WAKEUP,
-            triggerAtMillis,
-            pendingIntent
-        )
+        val triggerAtMillis = System.currentTimeMillis() + 10_000 // 10초 후
+
+        try {
+            alarmManager.setExactAndAllowWhileIdle(
+                AlarmManager.RTC_WAKEUP,
+                triggerAtMillis,
+                pendingIntent
+            )
+        } catch (e: SecurityException) {
+            Toast.makeText(context, "알람 권한이 필요합니다.", Toast.LENGTH_LONG).show()
+        }
     }
 }

@@ -24,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".checklist.ChecklistHubActivity" />
         <activity android:name=".ui.JobDetailActivity" />
         <activity android:name=".ui.SubJobActivity" />
         <activity android:name=".ui.DetailActivity" />
