@@ -9,12 +9,4 @@ data class GameRune(
     val subtitle:String,
     val description: String,
     val iconResId: Int
-) : Serializable {
-    fun toGameInfo(): GameInfo = GameInfo(
-        id = id,
-        title = title,
-        subtitle = subtitle,
-        description = description,
-        iconResId = iconResId
-    )
-}
+) : Serializable

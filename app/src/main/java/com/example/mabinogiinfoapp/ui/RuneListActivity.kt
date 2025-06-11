@@ -11,6 +11,7 @@ import com.example.mabinogiinfoapp.adapter.GameInfoAdapter
 import com.example.mabinogiinfoapp.data.GameInfo
 import com.example.mabinogiinfoapp.data.SampleData
 import com.example.mabinogiinfoapp.databinding.ActivityRuneListBinding
+import com.example.mabinogiinfoapp.extention.toGameInfo
 
 class RuneListActivity : AppCompatActivity() {
 
@@ -68,8 +69,11 @@ class RuneListActivity : AppCompatActivity() {
 
     private fun filterRuneList(query: String) {
         val filteredList = allItems.filter {
-            it.title.contains(query, ignoreCase = true)
-        }
+                    it.title.contains(query, ignoreCase = true) ||
+                    it.subtitle.contains(query, ignoreCase = true)||
+                    it.description.contains(query, ignoreCase = true) ||
+                    it.searchKeys.any { key -> key.contains(query, ignoreCase = true)
+                    }}
         adapter.updateList(filteredList)
     }
 }

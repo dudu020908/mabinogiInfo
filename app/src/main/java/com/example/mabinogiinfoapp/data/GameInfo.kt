@@ -7,5 +7,7 @@ data class GameInfo(
     val title: String,
     val subtitle : String,
     val description: String,
-    val iconResId: Int
+    val iconResId: Int,
+    val searchKeys: List<String> = emptyList()
+
 ) : Serializable
